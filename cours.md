@@ -114,7 +114,7 @@ WAMP
   ```html
   <p>quel beau paragraphe !</p>
   ```
-  
+
 * un lien
 
   ```html
@@ -191,13 +191,15 @@ Tout au long de la session, réalisation d'un projet sur votre équipe
 
 ### Qui est un bon développeur ?
 
-Tout bon développeur prend le temps d'organiser et de commenter son code
+Il prend le temps d'organiser et de commenter (et documenter) son code
 
-Tout bon développeur sait limiter le nombre de caractères qu'il a à écrire
+Il sait limiter le nombre de caractères qu'il a à écrire
 
-Tout bon développeur ne reste pas dans son coin sans chercher (sur Internet au pire)
+Il ne reste pas dans son coin sans chercher (sur Internet au pire)
 
-Tout bon développeur sait chercher intelligemment de l'aide sur le web
+Il sait chercher intelligemment de l'aide sur le web
+
+Il a un niveau d'anglais correct
 
 ### Rédaction de votre code
 
@@ -348,7 +350,7 @@ h1 span {
 
 ---
 
-# PHP
+# php
 
 Langage inséré dans les fichiers html dans des balises
 
