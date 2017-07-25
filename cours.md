@@ -110,18 +110,25 @@ WAMP
 #### Exemples
 
 * un paragraphe
+
   ```html
   <p>quel beau paragraphe !</p>
   ```
+  
 * un lien
+
   ```html
   <a href="http://www.ign.fr">lien vers ign</a>
   ```
+
 * un saut de ligne
+
   ```html
   <hr />
   ```
+
 * autre :
+
   ```html
   <div>wow ma <strong>magnifique</strong> div !</div>
   ```
