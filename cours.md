@@ -201,30 +201,6 @@ Il sait chercher intelligemment de l'aide sur le web
 
 Il a un niveau d'anglais correct
 
-### Rédaction de votre code
-
-- Toujours bien vérifier que si une balise est ouverte, elle __doit__ être fermée
-
-- Certaines balises sont __auto-fermantes__ (`<img />`, `<br />`)
-
-- Toujours bien __terminer__ un style par un ;
-
-- Garder un code propre bien `indenté` (pour faciliter la relecture)
-
-- Ne pas hésiter à commenter
-  * html `<!-- mon commentaire -->`
-  * css ` /* mon commentaire */`
-
-- Ecrire le contenu de la page dans le corps du document (`<body></body>`)
-
-- Remplir correctement l'entête (`<head></head>`) de votre document
-  * titre
-  * encodage
-  * auteur
-  * ...
-
-- Ne pas __abuser__ du copier/coller
-
 ### Organisation de vos données
 
 - Créer des noms de fichiers simples/lisibles
@@ -250,6 +226,27 @@ Il a un niveau d'anglais correct
 |  +--cv.html
 |  +--presentation.html
 ```
+
+### Rédaction de votre code
+
+- Toujours bien vérifier que si une balise est ouverte, elle __doit__ être fermée
+
+- Certaines balises sont __auto-fermantes__ (`<img />`, `<br />`)
+
+- Garder un code propre bien `indenté` (pour faciliter la relecture)
+
+- Ne pas hésiter à commenter
+  * html `<!-- mon commentaire -->`
+
+- Ecrire le contenu de la page dans le corps du document (`<body></body>`)
+
+- Remplir correctement l'entête (`<head></head>`) de votre document
+  * titre
+  * encodage
+  * auteur
+  * ...
+
+- Ne pas __abuser__ du copier/coller
 
 ## Première page
 
@@ -358,6 +355,20 @@ h1 span {
 * Création d'interfaces nombreuses
 * Création de sites adaptatifs
 
+### Rédaction de votre code
+
+- Toujours bien __terminer__ un style par un ;
+
+- Garder un code propre bien `indenté` (pour faciliter la relecture)
+
+- Donner des noms compréhensibles
+
+- Ne pas hésiter à commenter
+  * html `<!-- mon commentaire -->`
+  * css ` /* mon commentaire */`
+
+- Ne pas __abuser__ du copier/coller
+
 
 # Amélioration de notre page
 
@@ -366,7 +377,7 @@ h1 span {
 
 # php
 
-Langage inséré dans les fichiers html dans des balises
+Langage qui peut être inséré dans les fichiers html dans des balises
 
 ```php
 <?php ?>
@@ -375,19 +386,19 @@ Langage inséré dans les fichiers html dans des balises
 ## Variables
 
 * Pas de typage des variables
-* Identificateur avec un ```$``` au début (exemple : ```$toto```)
+* Identificateur avec un `$` au début (exemple : `$toto`)
 * Types existants :
-  - integer ```$age = 12;```
-  - string ```$nom = 'toto';```
-  - float ```$taille = '1.76';```
+  - integer `$age = 12;`
+  - string `$nom = 'toto';`
+  - float `$taille = '1.76';`
   - array
-  - boolean ```$open = true```
+  - boolean `$open = true`
   - object
 
 ### Chaînes de caractères
 
-* entre ```'```
-* concaténés par des ```.```
+* entre `'`
+* concaténés par des `.`
 
 ## Structures
 
