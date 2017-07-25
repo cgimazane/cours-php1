@@ -68,7 +68,7 @@ _NB : Langage interprété par le navigateur_
 
 Dans votre navigateur, taper www.csszengarden.com/cdn avec ```cdn < 222```
 
-Exemples : 191, 209, 167, 126, 112, 048, 012, 001
+Exemples : 209, 167, 126, 112, 048, 012, 001
 
 ## php
 
@@ -285,14 +285,14 @@ h1 {
 
 }
 ```
-* on peut sélectionner un élément identifié ```<div id="boite"></div>``` dans la page
+* on peut sélectionner un élément identifié `<div id="boite"></div> dans la page
 
 ```css
 #boite {
 
 }
 ```
-* on peut sélectionner un élément identifié ```<div class="menu"></div>``` dans la page
+* on peut sélectionner un élément identifié `<div class="menu"></div> dans la page
 
 ```css
 .menu {
@@ -319,6 +319,11 @@ h1 span {
 
 }
 ```
+## Les pseudo-trucs
+
+- pseudo-classes : `:hover`, `:nth-child()` ...
+
+- pseudo-éléments : `::firstletter`, `:after` ...
 
 ## Les propriétés
 
@@ -338,6 +343,16 @@ h1 span {
 * Transparence
 * ...
 
+## Les fonctions
+
+- `transform()`
+
+- `rotate()`
+
+- `linear-gradient()`
+
+- ...
+
 ## Utilité
 
 * Création d'interfaces nombreuses
@@ -348,7 +363,6 @@ h1 span {
 
 * Reprise de la page avec la présentation de votre équipe (deux fois mieux)
 
----
 
 # php
 
