@@ -66,7 +66,7 @@ _NB : Langage interprété par le navigateur_
 
 ## Démonstration
 
-Dans votre navigateur, taper www.csszengarden.com/cdn avec cdn < 222
+Dans votre navigateur, taper www.csszengarden.com/cdn avec ```cdn < 222```
 
 Exemples : 191, 209, 167, 126, 112, 048, 012, 001
 
