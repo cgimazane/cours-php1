@@ -2,7 +2,7 @@
 
 [intro](intro.md)
 
-# Usages
+# Usages
 
 ## Mise en place (et vérification) de l'environnement
 
