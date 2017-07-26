@@ -1,88 +1,10 @@
 # Introduction
 
-## Mise en situation
+[intro](intro.md)
 
-Langages utlisés :
+# Usages
 
-* html ( Hypertext Markup Language )
-* css ( Cascading Style Sheets )
-* php ( PHP: Hypertext Preprocessor )
-
-Machines utilisées :
-
-* un client
-* un serveur
-
-Logiciels utilisés :
-
-* un navigateur
-* un serveur web
-* un éditeur de texte
-* un sgbd
-* ...
-
-## Présentation fonctionnement site
-
-### Site statique
-
-Le site est une simple page que l'utilisateur peut lire et avec laquelle il n'aura aucune interaction.
-
-### Site dynamique
-
-Existence de sites dynamiques qui vont "communiquer" avec l'uilisateur
-
-## Remarque importante
-
-Vous n'êtes pas seul à lire votre code : bien indenter et commenter son code
-
-# Les langages
-
-## html
-
-C'est un __standard__
-
-C'est le __"fond"__ du document
-
-* description de données
-* structuration de la page
-* organisation de contenu
-* utilisation de html5
-
-_NB : Langage interprété par le navigateur_
-
-## css
-
-C'est un standard
-
-C'est la __"forme"__ du document
-
-* mise en forme des données
-  - couleur
-  - taille
-  - police
-* indépendant du html
-
-_NB : Langage interprété par le navigateur_
-
-## Démonstration
-
-Dans votre navigateur, taper www.csszengarden.com/cdu avec ```cdu < 222```
-
-Exemples : 209, 167, 126, 112, 048, 012, 001
-
-## php
-
-* poo
-* page dynamique
-  - tests
-  - boucles
-  - fonctions
-  - ...
-
-_NB : Langage traité par le serveur_
-
-
-# Mise en place (et vérification) de l'environnement
+## Mise en place (et vérification) de l'environnement
 
 WAMP
 
@@ -92,102 +14,7 @@ WAMP
   - que l'on remplacera par PostgreSQL
 * PHP (scripts)
 
-
-# html
-
-## Les bases du html
-
-### Les balises
-
-* elles définissent un rôle (et pas de mise en forme)
-* elles ont les noms écrits en minuscules
-* elles s'ouvrent et se referment
-* elles peuvent avoir des attributs ( ```"``` est utilisé pour définir les valeur des attributs )
-* elles sont de deux types
-  - "bloc" : elles créent un bloc "autonome"
-  - en ligne : elles servent à donner de l'intérêt à ce qu'elles concernent
-
-#### Exemples
-
-* un paragraphe
-
-  ```html
-  <p>quel beau paragraphe !</p>
-  ```
-
-* un lien
-
-  ```html
-  <a href="http://www.ign.fr">lien vers ign</a>
-  ```
-
-* un saut de ligne
-
-  ```html
-  <hr />
-  ```
-
-* autre :
-
-  ```html
-  <div>wow ma <strong>magnifique</strong> div !</div>
-  ```
-
-### La page de base
-
-  ```html
-  <!doctype html>
-  <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>Titre de la page</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    ...
-    <!-- Le contenu de votre page -->
-    ...
-  </body>
-  </html>
-  ```
-
-* doctype
-* html avec un attribut (zone racine)
-  - head (entête contenant les metadonnées)
-    + meta
-    + title
-    + link
-  - body
-    + le contenu du document
-
-Existence de standards à respecter.
-
-### Liste de balises bloc (non-exhaustive)
-
-* les blocs "neutres" : ```<div>blabla</div>``` : pour désigner les différentes parties du documents
-* les titres : ```<h1>Mon super titre</h1>``` (h2, ..., h6) : pour organiser la page
-* les paragraphes : ```<p>ouh encore un beau paragraphe !</p>```
-* les listes : ```<ul>``` (non-numérotée) ou ```<ol>``` (numérotée)
-* les éléments de listes : ```<li>```
-* les tableaux : ```<table>```
-  - avec des lignes : ```<tr>```
-  - avec des cellules : ```<td>```
-* ...
-
-### Liste de balises en ligne
-
-* ```<strong>``` , ```<em>``` : accentuation
-* ```<a>``` : les liens
-  - href : destination du lien
-* ```<img>```
-* ```<span>``` : l'équivalent de div
-* ...
-
-# Réalisation du travail
-
-Tout au long de la session, réalisation d'un projet sur votre équipe
-
-## Généralités
+## Généralités sur les développements
 
 ### Qui est un bon développeur ?
 
@@ -227,26 +54,15 @@ Il a un niveau d'anglais correct
 |  +--presentation.html
 ```
 
-### Rédaction de votre code
+# html
 
-- Toujours bien vérifier que si une balise est ouverte, elle __doit__ être fermée
+[html](html.md)
 
-- Certaines balises sont __auto-fermantes__ (`<img />`, `<br />`)
 
-- Garder un code propre bien `indenté` (pour faciliter la relecture)
 
-- Ne pas hésiter à commenter
-  * html `<!-- mon commentaire -->`
+# Réalisation du travail
 
-- Ecrire le contenu de la page dans le corps du document (`<body></body>`)
-
-- Remplir correctement l'entête (`<head></head>`) de votre document
-  * titre
-  * encodage
-  * auteur
-  * ...
-
-- Ne pas __abuser__ du copier/coller
+Tout au long de la session, réalisation d'un projet sur votre équipe
 
 ## Première page
 
@@ -255,119 +71,7 @@ Il a un niveau d'anglais correct
 
 # css
 
-Un style css est composé de :
-
-* un sélecteur
-* des règles
- - à mettre entre { }
- - à terminer par un ;
-
-#### Exemple
-
-```css
-h1 {
-     font-family: Arial;
-     color: #0f5;
-}
-```
-
-## Les sélecteurs
-
-### Sélecteur simple
-
-* on peut sélectionner tous les éléments `h1`
-
-```css
-h1 {
-
-}
-```
-* on peut sélectionner un élément identifié `<div id="boite"></div>` dans la page
-
-```css
-#boite {
-
-}
-```
-* on peut sélectionner tous les éléments identifiés `<div class="menu"></div>` dans la page
-
-```css
-.menu {
-
-}
-```
-
-### Sélecteur multiple
-
-* on peut sélectionner tous les éléments `h1` et tous les éléments `span`
-
-```css
-h1, span {
-
-}
-```
-
-### Sélecteur hiérarchique
-
-* on peut sélectionner tous les éléments `span` contenu dans un élément `h1`
-
-```css
-h1 span {
-
-}
-```
-## Les pseudo-trucs
-
-- pseudo-classes : `:hover`, `:nth-child()` ...
-
-- pseudo-éléments : `::firstletter`, `::after` ...
-
-## Les propriétés
-
-* Couleur : color, background-color
-* Textes :
-  - police : font-family
-  - taille : font-size
-  - graisse : font-weight
-  - alignement : text-align
-  - ...
-* Dimensions : width, height
-* Bordures
-* Marges
-  - internes : padding
-  - externes : margin
-* Positionnement
-* Transparence
-* ...
-
-## Les fonctions
-
-- `transform()`
-
-- `rotate()`
-
-- `linear-gradient()`
-
-- ...
-
-## Utilité
-
-* Création d'interfaces nombreuses
-* Création de sites adaptatifs
-
-### Rédaction de votre code
-
-- Toujours bien __terminer__ un style par un ;
-
-- Garder un code propre bien `indenté` (pour faciliter la relecture)
-
-- Donner des noms compréhensibles
-
-- Ne pas hésiter à commenter
-  * html `<!-- mon commentaire -->`
-  * css ` /* mon commentaire */`
-
-- Ne pas __abuser__ du copier/coller
+[css](css.md)
 
 
 # Amélioration de notre page
@@ -377,62 +81,4 @@ h1 span {
 
 # php
 
-Langage qui peut être inséré dans les fichiers html dans des balises
-
-```php
-<?php ?>
-```
-
-## Variables
-
-* Pas de typage des variables
-* Identificateur avec un `$` au début (exemple : `$toto`)
-* Types existants :
-  - integer `$age = 12;`
-  - string `$nom = 'toto';`
-  - float `$taille = '1.76';`
-  - array
-  - boolean `$open = true`
-  - object
-
-### Chaînes de caractères
-
-* entre `'`
-* concaténés par des `.`
-
-## Structures
-
-### Conditionelles
-
-```php
-<?php
-	if (condition_a){
-		//code
-	}elseif(condition_b){
-		//code
-	}else{
-		//code
-	}
-?>
-```
-### Boucles
-
-#### for (exécuté pour i = 0, 1, ... , 9, soit 10 fois)
-
-```php
-<?php
-	for( $i=0; $i<10; $i++ ) {
-		 //code
-	}
-?>
-```
-
-#### while
-
-```php
-<?php
-while( condition ) {
-     // code à exécuter tant que la condition est vraie
-}
-?>
-```
+[php](php.md)

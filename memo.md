@@ -44,3 +44,9 @@ h1 {
 - Ne pas __abuser__ du copier/coller
 
 - Utiliser des noms de fichiers ou de dossiers simples
+
+
+# Liens utiles
+
+* [Cours](cours.md)
+* toto
