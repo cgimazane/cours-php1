@@ -40,13 +40,13 @@ _NB : un commentaire de code n'est pas une paraphrase du code_
 
 #### Exemple
 
-on évite ~`toto`~ ou ~`plop`~, on va préférer `couleurProduit` à `cp`
+on évite ~~`toto`~~ ou ~~`plop`~~, on va préférer `couleurProduit` à `cp`
 
 - des fonctions qui ne font qu'une seule chose avec des noms descriptifs (utilisation de verbes d'action)
 
 #### Exemple
 
-on va avoir des noms de fonctions comme `getCouleurProduit()` et `getCouleurComplementaire()` plutôt que ~`getCouleurProduitAndCouleurComplementaire()`~
+on va avoir des noms de fonctions comme `getCouleurProduit()` et `getCouleurComplementaire()` plutôt que ~~`getCouleurProduitAndCouleurComplementaire()`~~
 
 9. Il écrit des tests relatifs à ce qu'il a rédigé
 
@@ -80,6 +80,14 @@ Le bon développeur est soigné, lisible, explicite, organisé, ouvert, critique
 |  +--presentation.html
 ```
 
+## Outils de vérification du code
+
+lint
+validator
+firebug
+
+---
+
 # html
 
 [html](html.md)
@@ -108,9 +116,3 @@ Tout au long de la session, réalisation d'un projet sur votre équipe : créati
 # php
 
 [php](php.md)
-
-# Outils de vérification du code écrit
-
-lint
-validator
-firebug
