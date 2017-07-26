@@ -18,15 +18,41 @@ WAMP
 
 ### Qui est un bon développeur ?
 
-Il prend le temps d'organiser et de commenter (et documenter) son code
+1. Il prend le temps d'organiser (de façon logique et évidente) et de commenter (et documenter) son code
 
-Il sait limiter le nombre de caractères qu'il a à écrire
+_NB : un commentaire de code n'est pas une paraphrase du code_
 
-Il ne reste pas dans son coin sans chercher (sur Internet au pire)
+2. Il arrive à garder une cohérence et une structure solide tout au long de ses développements
 
-Il sait chercher intelligemment de l'aide sur le web
+3. Il sait limiter le nombre de caractères qu'il a à écrire et minimiser les dépendances
 
-Il a un niveau d'anglais correct
+4. Il sait limiter la taille de ses fichiers (en ligne et en colonne)
+
+5. Il ne reste pas dans son coin sans chercher (sur Internet au pire)
+
+6. Il sait chercher intelligemment de l'aide sur le web
+
+7. Il a un niveau d'anglais correct mais code en une seule langue
+
+8. Il crée du code intelligible et robuste et respecte les bonnes pratiques :
+
+- des noms de variables explicites : on dit "révélateur d'intention"
+
+#### Exemple
+
+on évite ~`toto`~ ou ~`plop`~, on va préférer `couleurProduit` à `cp`
+
+- des fonctions qui ne font qu'une seule chose avec des noms descriptifs (utilisation de verbes d'action)
+
+#### Exemple
+
+on va avoir des noms de fonctions comme `getCouleurProduit()` et `getCouleurComplementaire()` plutôt que ~`getCouleurProduitAndCouleurComplementaire()`~
+
+9. Il écrit des tests relatifs à ce qu'il a rédigé
+
+### En gros
+
+Le bon développeur est soigné, lisible, explicite, organisé, ouvert, critique, logique et anglophone...
 
 ### Organisation de vos données
 
@@ -58,16 +84,9 @@ Il a un niveau d'anglais correct
 
 [html](html.md)
 
-
-
 # Réalisation du travail
 
-Tout au long de la session, réalisation d'un projet sur votre équipe
-
-## Première page
-
-* Création d'une page avec la présentation de votre équipe
-
+Tout au long de la session, réalisation d'un projet sur votre équipe : création d'une page avec la présentation de votre équipe
 
 # css
 
@@ -78,7 +97,20 @@ Tout au long de la session, réalisation d'un projet sur votre équipe
 
 * Reprise de la page avec la présentation de votre équipe (deux fois mieux)
 
+# js
+
+[js](js.md)
+
+# Amélioration de notre page
+
+* Reprise de la page en ajoutant de l'interaction
 
 # php
 
 [php](php.md)
+
+# Outils de vérification du code écrit
+
+lint
+validator
+firebug
