@@ -66,7 +66,7 @@ _NB : Langage interprété par le navigateur_
 
 ## Démonstration
 
-Dans votre navigateur, taper www.csszengarden.com/cdn avec ```cdn < 222```
+Dans votre navigateur, taper www.csszengarden.com/cdu avec ```cdu < 222```
 
 Exemples : 209, 167, 126, 112, 048, 012, 001
 
@@ -183,7 +183,7 @@ Existence de standards à respecter.
 * ```<span>``` : l'équivalent de div
 * ...
 
-# Le projet
+# Réalisation du travail
 
 Tout au long de la session, réalisation d'un projet sur votre équipe
 
@@ -275,21 +275,21 @@ h1 {
 
 ### Sélecteur simple
 
-* on peut sélectionner tous les éléments h1
+* on peut sélectionner tous les éléments `h1`
 
 ```css
 h1 {
 
 }
 ```
-* on peut sélectionner un élément identifié `<div id="boite"></div> dans la page
+* on peut sélectionner un élément identifié `<div id="boite"></div>` dans la page
 
 ```css
 #boite {
 
 }
 ```
-* on peut sélectionner un élément identifié `<div class="menu"></div> dans la page
+* on peut sélectionner tous les éléments identifiés `<div class="menu"></div>` dans la page
 
 ```css
 .menu {
@@ -299,7 +299,7 @@ h1 {
 
 ### Sélecteur multiple
 
-* on peut sélectionner un élément h1 ou un élément span
+* on peut sélectionner tous les éléments `h1` et tous les éléments `span`
 
 ```css
 h1, span {
@@ -309,7 +309,7 @@ h1, span {
 
 ### Sélecteur hiérarchique
 
-* on peut sélectionner un élément span dans un élément h1
+* on peut sélectionner tous les éléments `span` contenu dans un élément `h1`
 
 ```css
 h1 span {
@@ -320,7 +320,7 @@ h1 span {
 
 - pseudo-classes : `:hover`, `:nth-child()` ...
 
-- pseudo-éléments : `::firstletter`, `:after` ...
+- pseudo-éléments : `::firstletter`, `::after` ...
 
 ## Les propriétés
 
