@@ -28,12 +28,14 @@ h1 {
 
 ## php
 
+## js
+
 
 # Rappels
 
 - Toujours bien vérifier que si une balise est ouverte, elle __doit__ être fermée
 
-- Toujours bien __terminer__ un style par un ;
+- Toujours bien __terminer__ un style (css) ou une instruction (php) par un ;
 
 - Garder un code propre bien `indenté` (pour faciliter la relecture)
 
@@ -49,4 +51,3 @@ h1 {
 # Liens utiles
 
 * [Cours](cours.md)
-* toto

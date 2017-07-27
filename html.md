@@ -90,6 +90,12 @@ Existence de standards à respecter.
 * ```<span>``` : l'équivalent de div
 * ...
 
+### Liste d'attributs standards
+* class : pour définir les classes de l'objet que l'on utilisera en css
+* id : pour donner un identifiant unique à une balise
+* title : permet de donner un titre pour un objet
+* style : permet d'intégrer un style css à l'objet
+
 ## Rédaction de votre code
 
 - Toujours bien vérifier que si une balise est ouverte, elle __doit__ être fermée
