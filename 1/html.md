@@ -1,6 +1,19 @@
-[Retour au cours](cours.md)
+[Retour au cours](../cours.md)
 
 # html
+
+## Introduction
+
+### Définition
+
+HyperText Markup Language
+
+### Mots-clés
+
+Un élément html  :
+
+* est représenté par des balises
+* peut avoir des attributs
 
 ## Les bases du html
 
@@ -9,7 +22,7 @@
 * elles définissent un rôle (et pas de mise en forme)
 * elles ont les noms écrits en minuscules
 * elles s'ouvrent et se referment
-* elles peuvent avoir des attributs ( ```"``` est utilisé pour définir les valeur des attributs )
+* elles peuvent avoir des attributs ( `"` est utilisé pour définir les valeur des attributs )
 * elles sont de deux types
   - "bloc" : elles créent un bloc "autonome"
   - en ligne : elles servent à donner de l'intérêt à ce qu'elles concernent
@@ -117,4 +130,4 @@ Existence de standards à respecter.
 
 - Ne pas __abuser__ du copier/coller
 
-[Retour au cours](cours.md)
+[Retour au cours](../cours.md)

@@ -1,4 +1,4 @@
-[Retour au cours](cours.md)
+[Retour au cours](../cours.md)
 
 # Généralités sur les développements
 
@@ -72,4 +72,4 @@ lint
 validator
 firebug
 
-[Retour au cours](cours.md)
+[Retour au cours](../cours.md)

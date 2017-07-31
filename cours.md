@@ -1,10 +1,8 @@
-# Introduction
+# 0 - Introduction
 
-[intro](intro.md)
+[intro](0/intro.md)
 
-# Usages
-
-## Mise en place (et vérification) de l'environnement
+## 0.1 -  Mise en place (et vérification) de l'environnement
 
 WAMP
 
@@ -14,61 +12,59 @@ WAMP
   - que l'on remplacera par PostgreSQL
 * PHP (scripts)
 
-## Généralités sur les développements
+## 0.2 - Généralités sur les développements
 
-[Généralités](generalites.md)
+[Généralités](0/generalites.md)
 
 ---
 
-# html
+# 1 - html
 
-[html](html.md)
+## 1.1 - Théorie
 
-# Réalisation du travail
+[html](1/html.md)
 
-Tout au long de la session, réalisation d'un projet sur votre équipe : création d'une page avec la présentation de votre équipe
+## 1.2 - Pratique
 
-## Objectifs
+[html-exos](1/exos.md)
 
-* Liste
-* Liste
+# 2 - css
 
-# css
+## 2.1 - Théorie
 
-[css](css.md)
+[css](2/css.md)
+
+## 2.2 - Pratique
+
+[css-exos](2/exos.md)
 
 
-# Amélioration de notre page
+# 3 - js
 
-* Reprise de la page avec la présentation de votre équipe (deux fois mieux)
+## 3.1 - Théorie
 
-## Objectifs
+[js](3/js.md)
 
-* Liste
-* Liste
+## 3.2 - Pratique
 
-# js
+[js-exos](3/exos.md)
 
-[js](js.md)
+# 4 - php
 
-# Amélioration de notre page
+## 4.1 - Théorie
 
-* Reprise de la page en ajoutant de l'interaction
+[php](4/php.md)
 
-## Objectifs
+## 4.2 - Pratique
 
-* Liste
-* Liste
+[php-exos](4/exos.md)
 
-# php
+# 5 - formulaires
 
-[php](php.md)
+## 5.1 - Théorie
 
-# Amélioration de notre page
+[form](5/form.md)
 
-* Reprise de la page en ajoutant de l'interaction
+## 5.2 - Pratique
 
-## Objectifs
-
-* Liste
-* Liste
+[form-exos](5/exos.md)

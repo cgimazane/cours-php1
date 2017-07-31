@@ -1,6 +1,14 @@
-[Retour au cours](cours.md)
+[Retour au cours](../cours.md)
 
 # css
+
+## Introduction
+
+### Définition
+
+Cascading Style Sheets
+
+### Mots-clés
 
 Un style css est composé de :
 
@@ -102,7 +110,11 @@ h1 span {
 * Création d'interfaces nombreuses
 * Création de sites adaptatifs
 
-### Rédaction de votre code
+## Référencement
+
+link
+
+## Rédaction de votre code
 
 - Toujours bien __terminer__ un style par un ;
 
@@ -116,8 +128,9 @@ h1 span {
 
 - Ne pas __abuser__ du copier/coller
 
-#### Conventions
+### Conventions
+
 * une déclaration par ligne
 * utiliser des minuscules pour les couleurs
 
-[Retour au cours](cours.md)
+[Retour au cours](../cours.md)

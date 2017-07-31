@@ -1,4 +1,4 @@
-[Retour au cours](cours.md)
+[Retour au cours](../cours.md)
 
 # Introduction
 
@@ -74,17 +74,22 @@ Exemples : 209, 167, 126, 112, 048, 012, 001
 
 ## js
 
+C'est un langage de programmation de scripts (orienté objet)
 
+* gestion des événements
+* interaction avec la page ou l'utilisateur
+* animer
+* dessiner
+* ...
+
+_NB : Langage interprété par le navigateur_
 
 ## php
 
-* poo
-* page dynamique
-  - tests
-  - boucles
-  - fonctions
-  - ...
+C'est un langage de programmation de scripts (orienté objet)
 
-_NB : Langage traité par le serveur_
+* automatisation des traitements
 
-[Retour au cours](cours.md)
+_NB : Langage interprété par le serveur_
+
+[Retour au cours](../cours.md)
