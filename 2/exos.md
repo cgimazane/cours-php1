@@ -6,7 +6,16 @@
 
 ## Objectifs
 
-* Liste
-* Liste
+Rendre la page plus agréable
+
+* Structuration
+  - page
+    + header
+    + menu
+    + footer
+* Création d'un fichier de style
+  - Mise en forme
+    + générale
+    + du tableau
 
 [Retour au cours](../cours.md)
