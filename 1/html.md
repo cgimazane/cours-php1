@@ -84,30 +84,30 @@ Existence de standards à respecter.
 
 ### Liste de balises bloc (non-exhaustive)
 
-* les blocs "neutres" : ```<div>blabla</div>``` : pour désigner les différentes parties du documents
-* les titres : ```<h1>Mon super titre</h1>``` (h2, ..., h6) : pour organiser la page
-* les paragraphes : ```<p>ouh encore un beau paragraphe !</p>```
-* les listes : ```<ul>``` (non-numérotée) ou ```<ol>``` (numérotée)
-* les éléments de listes : ```<li>```
-* les tableaux : ```<table>```
-  - avec des lignes : ```<tr>```
-  - avec des cellules : ```<td>```
+* les blocs "neutres" : `<div>blabla</div>` : pour désigner les différentes parties du documents
+* les titres : `<h1>Mon super titre</h1>` (h2, ..., h6) : pour organiser la page
+* les paragraphes : `<p>ouh encore un beau paragraphe !</p>`
+* les listes : `<ul>` (non-numérotée) ou `<ol>` (numérotée)
+* les éléments de listes : `<li>`
+* les tableaux : `<table>`
+  - avec des lignes : `<tr>`
+  - avec des cellules : `<td>`
 * ...
 
 ### Liste de balises en ligne
 
-* ```<strong>``` , ```<em>``` : accentuation
-* ```<a>``` : les liens
+* `<strong>` , `<em>` : accentuation
+* `<a>` : les liens
   - href : destination du lien
-* ```<img>```
-* ```<span>``` : l'équivalent de div
+* `<img>`
+* `<span>` : l'équivalent de div
 * ...
 
 ### Liste d'attributs standards
-* class : pour définir les classes de l'objet que l'on utilisera en css
-* id : pour donner un identifiant unique à une balise
-* title : permet de donner un titre pour un objet
-* style : permet d'intégrer un style css à l'objet
+* `class` : pour définir les classes de l'objet que l'on utilisera en css
+* `id` : pour donner un identifiant unique à une balise
+* `title` : permet de donner un titre pour un objet
+* `style` : permet d'intégrer un style css à l'objet
 
 ## Rédaction de votre code
 
