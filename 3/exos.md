@@ -6,7 +6,8 @@
 
 ## Objectifs
 
-* Liste
-* Liste
+* Ajout d'une édition d'élément html
+  + suite à une action de l'utilisateur
+* Interaction demandant la date de naissance de l'utilisateur et lui retournant le nombre de jours qu'il a
 
 [Retour au cours](../cours.md)

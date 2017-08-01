@@ -31,7 +31,9 @@ Le site est une simple page que l'utilisateur peut lire et avec laquelle il n'au
 
 ### Site dynamique
 
-Existence de sites dynamiques qui vont "communiquer" avec l'uilisateur
+Existence de sites dynamiques qui vont "communiquer" avec l'utilisateur
+
+#### Dessin
 
 ## Remarque importante
 
@@ -41,7 +43,7 @@ Vous n'êtes pas seul à lire votre code : bien indenter et commenter son code
 
 ## html
 
-C'est un __standard__
+C'est un __standard__ (langage de balisage)
 
 C'est le __"fond"__ du document
 
@@ -88,6 +90,8 @@ _NB : Langage interprété par le navigateur_
 
 C'est un langage de programmation de scripts (orienté objet)
 
+* connexion à la base de données
+* traitement des données
 * automatisation des traitements
 
 _NB : Langage interprété par le serveur_
