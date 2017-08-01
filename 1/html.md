@@ -10,7 +10,7 @@ HyperText Markup Language
 
 ### Mots-clés
 
-Un élément html  :
+Un élément html	:
 
 * est représenté par des balises
 * peut avoir des attributs
@@ -20,65 +20,65 @@ Un élément html  :
 ### Les balises
 
 * elles définissent un rôle (et pas de mise en forme)
-* elles ont les noms écrits en minuscules
+* elles sont écrites en minuscules
 * elles s'ouvrent et se referment
 * elles peuvent avoir des attributs ( `"` est utilisé pour définir les valeur des attributs )
 * elles sont de deux types
-  - "bloc" : elles créent un bloc "autonome"
-  - en ligne : elles servent à donner de l'intérêt à ce qu'elles concernent
+	- "bloc" : elles créent un bloc "autonome"
+	- en ligne : elles servent à donner de l'intérêt à ce qu'elles concernent
 
 #### Exemples
 
 * un paragraphe
 
-  ```html
-  <p>quel beau paragraphe !</p>
-  ```
+	```html
+	<p>quel beau paragraphe !</p>
+	```
 
 * un lien
 
-  ```html
-  <a href="http://www.ign.fr">lien vers ign</a>
-  ```
+	```html
+	<a href="http://www.ign.fr">lien vers ign</a>
+	```
 
 * un saut de ligne
 
-  ```html
-  <hr />
-  ```
+	```html
+	<hr />
+	```
 
 * autre :
 
-  ```html
-  <div>wow ma <strong>magnifique</strong> div !</div>
-  ```
+	```html
+	<div>wow ma <strong>magnifique</strong> div !</div>
+	```
 
 ### La page de base
 
-  ```html
-  <!doctype html>
-  <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>Titre de la page</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    ...
-    <!-- Le contenu de votre page -->
-    ...
-  </body>
-  </html>
-  ```
+	```html
+	<!doctype html>
+	<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Titre de la page</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		...
+		<!-- Le contenu de votre page -->
+		...
+	</body>
+	</html>
+	```
 
 * doctype
 * html avec un attribut (zone racine)
-  - head (entête contenant les metadonnées)
-    + meta
-    + title
-    + link
-  - body
-    + le contenu du document
+	- head (entête contenant les metadonnées)
+		+ meta
+		+ title
+		+ link
+	- body
+		+ le contenu du document
 
 Existence de standards à respecter.
 
@@ -90,15 +90,15 @@ Existence de standards à respecter.
 * les listes : `<ul>` (non-numérotée) ou `<ol>` (numérotée)
 * les éléments de listes : `<li>`
 * les tableaux : `<table>`
-  - avec des lignes : `<tr>`
-  - avec des cellules : `<td>`
+	- avec des lignes : `<tr>`
+	- avec des cellules : `<td>`
 * ...
 
 ### Liste de balises en ligne
 
 * `<strong>` , `<em>` : accentuation
 * `<a>` : les liens
-  - href : destination du lien
+	- href : destination du lien
 * `<img>`
 * `<span>` : l'équivalent de div
 * ...
@@ -118,15 +118,15 @@ Existence de standards à respecter.
 - Garder un code propre bien `indenté` (pour faciliter la relecture)
 
 - Ne pas hésiter à commenter
-  * html `<!-- mon commentaire -->`
+	* html `<!-- mon commentaire -->`
 
 - Ecrire le contenu de la page dans le corps du document (`<body></body>`)
 
 - Remplir correctement l'entête (`<head></head>`) de votre document
-  * titre
-  * encodage
-  * auteur
-  * ...
+	* titre
+	* encodage
+	* auteur
+	* ...
 
 - Ne pas __abuser__ du copier/coller
 

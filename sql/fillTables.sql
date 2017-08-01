@@ -1,11 +1,11 @@
-INSERT INTO personne (age,nom,prenom,sexe,lunettes) VALUES (25,'Tenrien','Jean','m',false);
-INSERT INTO personne (age,nom,prenom,sexe,lunettes) VALUES (52,'Houarien','Yves','m',true);
-INSERT INTO personne (age,nom,prenom,sexe,lunettes) VALUES (11,'Tartine','Kimberley','f',false);
-INSERT INTO personne (age,nom,prenom,sexe,lunettes) VALUES (32,'Hervitemonslip','Jean-Philippe','m',false);
-INSERT INTO personne (age,nom,prenom,sexe,lunettes) VALUES (78,'Bolizan','Anna','f',false);
-INSERT INTO personne (age,nom,prenom,sexe,lunettes) VALUES (30,'Javel','Aude','f',true);
-INSERT INTO personne (age,nom,prenom,sexe,lunettes) VALUES (78,'Honnette','Marie','f',true);
-INSERT INTO personne (age,nom,prenom,sexe,lunettes) VALUES (44,'Menvussa','Gérard','m',false);
+INSERT INTO personne (nom,prenom,sexe,naissance,lunettes) VALUES ('Tenrien','Jean','m','1992-12-12',false);
+INSERT INTO personne (nom,prenom,sexe,naissance,lunettes) VALUES ('Houarien','Yves','m','1992-12-12',true);
+INSERT INTO personne (nom,prenom,sexe,naissance,lunettes) VALUES ('Tartine','Kimberley','f','1992-12-12',false);
+INSERT INTO personne (nom,prenom,sexe,naissance,lunettes) VALUES ('Hervitemonslip','Jean-Philippe','m','1992-12-12',false);
+INSERT INTO personne (nom,prenom,sexe,naissance,lunettes) VALUES ('Bolizan','Anna','f','1992-12-12',false);
+INSERT INTO personne (nom,prenom,sexe,naissance,lunettes) VALUES ('Javel','Aude','f','1992-12-12',true);
+INSERT INTO personne (nom,prenom,sexe,naissance,lunettes) VALUES ('Honnette','Marie','f','1992-12-12',true);
+INSERT INTO personne (nom,prenom,sexe,naissance,lunettes) VALUES ('Menvussa','Gérard','m','1992-12-12',false);
 
 INSERT INTO bureau (nom,batiment,etage) VALUES ('L305','L',3);
 INSERT INTO bureau (nom,batiment,etage) VALUES ('K12','K',0);

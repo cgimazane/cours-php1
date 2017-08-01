@@ -2,7 +2,7 @@ CREATE TABLE personne (
 	nom VARCHAR (255),
 	prenom VARCHAR (255),
 	sexe VARCHAR (1),
-	age INT,
+	naissance date,
 	lunettes BOOLEAN,
 	bureau VARCHAR (255),
 	PRIMARY KEY(nom,prenom),

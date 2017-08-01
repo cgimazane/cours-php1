@@ -31,12 +31,12 @@ Langage qui peut être inséré dans les fichiers html dans des balises
 * Pas de typage des variables
 * Identificateur avec un `$` au début (exemple : `$toto`)
 * Types existants :
-  - integer `$age = 12;`
-  - string `$nom = 'toto';`
-  - float `$taille = '1.76';`
-  - array
-  - boolean `$open = true`
-  - object
+	- integer `$age = 12;`
+	- string `$nom = 'toto';`
+	- float `$taille = '1.76';`
+	- array
+	- boolean `$open = true`
+	- object
 
 ### Chaînes de caractères
 
@@ -51,7 +51,7 @@ contenues dans `$_SERVER` (variable superglobale);
 
 ## Quelques fonctions utiles
 
-d |  f
+d |	f
 --- | ---
 Fichiers | `include()`/`require()` (_once), ...
 Tableau | `in_array()`, `array_gnagna()`, `sort()`, ...
@@ -92,7 +92,7 @@ Et bien d'autres...
 ```php
 <?php
 while( condition ) {
-     // code à exécuter tant que la condition est vraie
+		 // code à exécuter tant que la condition est vraie
 }
 ?>
 ```
@@ -110,7 +110,7 @@ Exemple :
 
 ```
 function concat($str1, $str2 = 'rajout') {
-     return $str1.$str2;
+		 return $str1.$str2;
 }
 ```
 

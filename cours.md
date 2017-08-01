@@ -2,14 +2,14 @@
 
 [Intro](0/intro.md)
 
-## 0.1 -  Mise en place (et vérification) de l'environnement
+## 0.1 -	Mise en place (et vérification) de l'environnement
 
 WAMP
 
 * Windows (environnement)
 * Apache (serveur web)
 * MySql (serveur de base de données)
-  - que l'on remplacera par PostgreSQL
+	- que l'on remplacera par PostgreSQL
 * PHP (scripts)
 
 ## 0.2 - Généralités sur les développements

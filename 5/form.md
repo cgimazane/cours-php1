@@ -18,20 +18,60 @@
 
 ### Les balises
 
-* ```<form>`
- - attribut `action` : la page php contenant le traitement
- - attribut `method` : GET (paramètres dans la barre d'adresse) ou POST (paramètres cachés)
-* `<input>`
- - type `text`
- - type `password`
- - type `radio`
- - type `checkbox`
- - type `select` et ses `option`
- - type `textarea`
- - type `submit`
- - type `hidden`
+- formulaire : `<form></form>`
+ * method : GET (paramètres dans la barre d'adresse) ou POST (paramètres cachés)
+ * name
+ * action : la page php contenant le traitement
 
-=> On fait un formulaire de calcul du volume pour un parallélipède rectangle
+- champ de saisie : `<input />`
+ * type
+		- type `text`
+		- type `password`
+		- type `radio`
+		- type `checkbox`
+		- type `select` et ses `option`
+		- type `textarea`
+		- type `submit`
+		- type `hidden`
+ * name
+> un name est **unique** dans un form
+
+- liste d'options : `<select></select>`
+ * name
+
+- `<option></option>`
+ * value
+
+- `<optgroup></optgroup>`
+ * label
+
+- `<label></label>`
+
+- `<fieldset></fieldset>`
+
+- `<legend></legend>`
+
+- `<option></option>`
+
+
+ ### Attributs utiles
+
+ - selected
+ - checked
+ - disabled
+ - readonly
+
+ #### Exemple
+
+ ```html
+	<form action="#">
+		<label for="filename">Nom du fichier :
+			<input type="text" name="filename" placeholder="Nom du fichier" />
+		</label>
+		<input type="file" name="file" />
+		<input type="submit" value="Submit" />
+	</form>
+```
 
 ---
 

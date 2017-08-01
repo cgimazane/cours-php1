@@ -42,18 +42,18 @@ on va avoir des noms de fonctions comme `getCouleurProduit()` et `getCouleurComp
 
 ### En gros
 
-Le bon développeur est soigné, lisible, explicite, organisé, ouvert, critique, logique, anglophone...
+Le bon développeur est soigné, lisible, endurant, explicite, organisé, ouvert, critique, appliqué, logique, anglophone...
 
 ## Organisation de vos données
 
 - Créer des noms de fichiers simples/lisibles
-  * Jamais plus de 20 caractères
-  * Pas de caractères spéciaux
+	* Jamais plus de 20 caractères
+	* Pas de caractères spéciaux
 
 - Vérifier les extensions de fichiers
 
 - Créer des noms de dossiers simples
-  * Ne pas faire des chemins trop longs
+	* Ne pas faire des chemins trop longs
 
 - Avoir une hiérarchie simple
 
@@ -61,13 +61,13 @@ Le bon développeur est soigné, lisible, explicite, organisé, ouvert, critique
 
 ```
 +--monProjetWeb
-|  +--css
-|    +--style.css
-|  +--images
-|    +--drapeau.png
-|  +--index.html
-|  +--cv.html
-|  +--presentation.html
+|	+--css
+|		+--style.css
+|	+--images
+|		+--drapeau.png
+|	+--index.html
+|	+--cv.html
+|	+--presentation.html
 ```
 
 ## Outils

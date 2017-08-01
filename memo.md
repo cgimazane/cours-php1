@@ -47,7 +47,13 @@ h1 {
 
 - Utiliser des noms de fichiers ou de dossiers simples
 
-
 # Liens utiles
+
+Il existe beaucoup de cheatsheets listant de nombreux attributs, balises ou styles ...
+
+* giyf
+  - lmgtfy
+    + jfgi
+      * stfw
 
 * [Cours](cours.md)

@@ -21,8 +21,8 @@ Un style css est composé de :
 
 ```css
 h1 {
-     font-family: Arial;
-     color: #0f5;
+		 font-family: Arial;
+		 color: #0f5;
 }
 ```
 
@@ -81,16 +81,16 @@ h1 span {
 
 * Couleur : color, background-color
 * Textes :
-  - police : font-family
-  - taille : font-size
-  - graisse : font-weight
-  - alignement : text-align
-  - ...
+	- police : font-family
+	- taille : font-size
+	- graisse : font-weight
+	- alignement : text-align
+	- ...
 * Dimensions : width, height
 * Bordures
 * Marges
-  - internes : padding
-  - externes : margin
+	- internes : padding
+	- externes : margin
 * Positionnement
 * Transparence
 * ...
@@ -123,8 +123,8 @@ link
 - Donner des noms compréhensibles
 
 - Ne pas hésiter à commenter
-  * html `<!-- mon commentaire -->`
-  * css ` /* mon commentaire */`
+	* html `<!-- mon commentaire -->`
+	* css ` /* mon commentaire */`
 
 - Ne pas __abuser__ du copier/coller
 
