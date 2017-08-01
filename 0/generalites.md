@@ -61,38 +61,40 @@ Le bon développeur est soigné, lisible, endurant, explicite, organisé, ouvert
 
 ```
 +--monProjetWeb
-|	+--css
-|		+--style.css
-|	+--js
-|		+--date.js
-|	+--img
-|		+--drapeau.png
-|	+--index.php
-|	+--cv.html
-|	+--presentation.html
+| +--css
+|  +--style.css
+| +--js
+|  +--date.js
+| +--img
+|  +--drapeau.png
+| +--index.php
+| +--cv.html
+| +--presentation.html
 ```
 
 ## Outils
 
 ### Vérification
 
-#### html
+#### html
 
-Markup Validation Service
+* Markup Validation Service
 
 #### js
 
-Lint
+* Lint
 
 #### php
 
-phpcs
-phpcpd
+* phpcs
+* phpcpd
 
+#### Autres outils
 
+* addons navigateur
 
 ### Documentation
 
-phpdoc
+* phpdoc
 
 [Retour au cours](../cours.md)
