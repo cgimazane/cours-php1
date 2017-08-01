@@ -88,6 +88,6 @@ Programme :
 
 * Bonnes pratiques
 * Programmation orientée objet
-* Tests
-* Gestion des données
+* Architecture
 * Frameworks
+* Tests
