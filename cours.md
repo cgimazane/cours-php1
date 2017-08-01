@@ -72,11 +72,11 @@ WAMP
 
 ## 6.1 - Théorie
 
-[form](5/form.md)
+[framework](6/framework.md)
 
 ## 6.2 - Pratique
 
-[form-exos](5/exos.md)
+[framework-exos](6/exos.md)
 
 ---
 
