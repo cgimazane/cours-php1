@@ -148,7 +148,7 @@ catch(PDOException $e) {
 
 ### Utilisation
 
-```
+```php
 <?php
 //requete #1
 $query = 'SELECT * FROM person;';
@@ -175,6 +175,6 @@ $prep->execute();
 $allResults = $prep->fetchAll();
 
 ?>
-
+```
 
 [Retour au cours](../cours.md)
