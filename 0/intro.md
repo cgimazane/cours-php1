@@ -2,12 +2,17 @@
 
 # Introduction
 
+## Vue générale sur la formation
+
+La formation a pour but de donner une première approche des développements web en présentant de façon assez large les langages ainsi que leurs spécificités.
+
 ## Mise en situation
 
 Langages utlisés :
 
 * html ( Hypertext Markup Language )
 * css ( Cascading Style Sheets )
+* js ( JavaScript )
 * php ( PHP: Hypertext Preprocessor )
 
 Machines utilisées :
