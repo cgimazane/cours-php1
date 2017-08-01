@@ -30,7 +30,7 @@ _NB : un commentaire de code n'est pas une paraphrase du code_
 
 #### Exemple
 
-on évite ~~`toto`~~ ou ~~`plop`~~, on va préférer `couleurProduit` à `cp`
+on évite ~~`toto`~~ ou ~~`plop`~~, on va préférer `couleurProduit` à ~~`cp`~~
 
 - des fonctions qui ne font qu'une seule chose avec des noms descriptifs (utilisation de verbes d'action)
 
@@ -63,21 +63,33 @@ Le bon développeur est soigné, lisible, endurant, explicite, organisé, ouvert
 +--monProjetWeb
 |	+--css
 |		+--style.css
-|	+--images
+|	+--js
+|		+--date.js
+|	+--img
 |		+--drapeau.png
-|	+--index.html
+|	+--index.php
 |	+--cv.html
 |	+--presentation.html
 ```
 
 ## Outils
 
-### Vérification
+### Vérification
 
-codesniffer
-lint
-validator
-firebug
+#### html
+
+Markup Validation Service
+
+#### js
+
+Lint
+
+#### php
+
+phpcs
+phpcpd
+
+
 
 ### Documentation
 

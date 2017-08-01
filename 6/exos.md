@@ -2,11 +2,11 @@
 
 # Amélioration de notre page
 
-* Reprise de la page en ajoutant de l'interaction
+* Reprise de la page en y ajoutant les bibliothèques
 
 ## Objectifs
 
-* Liste
-* Liste
+* Faire des beaux tableaux avec Bootstrap
+* Insérer une carte avec Leaflet
 
 [Retour au cours](../cours.md)
