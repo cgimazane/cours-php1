@@ -12,6 +12,12 @@ PHP Hypertext Preprocessor
 
 Fonctions variables
 
+### PHP Standards Recommendations
+
+PSR
+
+http://www.php-fig.org/psr/
+
 ## Go
 
 Langage qui peut être inséré dans les fichiers html dans des balises

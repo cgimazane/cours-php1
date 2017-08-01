@@ -104,7 +104,7 @@ Existence de standards à respecter.
 * ...
 
 ### Liste d'attributs standards
-* `class` : pour définir les classes de l'objet que l'on utilisera en css
+* `class` : pour définir les classes de l'objet que l'on utilisera plus tard
 * `id` : pour donner un identifiant unique à une balise
 * `title` : permet de donner un titre pour un objet
 * `style` : permet d'intégrer un style css à l'objet

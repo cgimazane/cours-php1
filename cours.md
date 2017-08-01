@@ -1,6 +1,6 @@
 # 0 - Introduction
 
-[intro](0/intro.md)
+[Intro](0/intro.md)
 
 ## 0.1 -  Mise en place (et vérification) de l'environnement
 
@@ -38,7 +38,6 @@ WAMP
 
 [css-exos](2/exos.md)
 
-
 # 3 - js
 
 ## 3.1 - Théorie
@@ -68,3 +67,17 @@ WAMP
 ## 5.2 - Pratique
 
 [form-exos](5/exos.md)
+
+---
+
+# Formation php2
+
+Qu'est ce qu'il vous intéresserait de faire dans la formation ?
+
+Programme :
+
+* Bonnes pratiques
+* Programmation orientée objet
+* Tests
+* Gestion des données
+* Frameworks
