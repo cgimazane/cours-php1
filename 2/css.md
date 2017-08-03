@@ -10,12 +10,12 @@ Cascading Style Sheets
 
 ### Mots-clés
 
-Un style css est composé de :
+Un __style__ css est composé de :
 
-* un sélecteur
-* des règles
- - à mettre entre { }
- - à terminer par un ;
+* un __sélecteur__
+* des __règles__
+  - à mettre entre { }
+  - à terminer par un ;
 
 #### Exemple
 
@@ -30,21 +30,21 @@ h1 {
 
 ### Sélecteur simple
 
-* on peut sélectionner tous les éléments `h1`
+* on sélectionne tous les éléments `h1`
 
 ```css
 h1 {
 
 }
 ```
-* on peut sélectionner un élément identifié `<div id="boite"></div>` dans la page
+* on sélectionne un élément identifié `<div id="boite"></div>` dans la page
 
 ```css
 #boite {
 
 }
 ```
-* on peut sélectionner tous les éléments identifiés `<div class="menu"></div>` dans la page
+* on sélectionne tous les éléments identifiés `<div class="menu"></div>` dans la page
 
 ```css
 .menu {
@@ -54,7 +54,7 @@ h1 {
 
 ### Sélecteur multiple
 
-* on peut sélectionner tous les éléments `h1` et tous les éléments `span`
+* on sélectionne tous les éléments `h1` et tous les éléments `span`
 
 ```css
 h1, span {
@@ -64,19 +64,13 @@ h1, span {
 
 ### Sélecteur hiérarchique
 
-* on peut sélectionner tous les éléments `span` contenu dans un élément `h1`
+* on sélectionne tous les éléments `span` contenu dans un élément `h1`
 
 ```css
 h1 span {
 
 }
 ```
-## Les pseudo-trucs
-
-- pseudo-classes : `:hover`, `:nth-child()` ...
-
-- pseudo-éléments : `::firstletter`, `::after` ...
-
 ## Les propriétés
 
 * Couleur : color, background-color
@@ -95,6 +89,12 @@ h1 span {
 * Transparence
 * ...
 
+## Les pseudo-trucs
+
+- pseudo-classes : `:hover`, `:nth-child()` ...
+
+- pseudo-éléments : `::firstletter`, `::after` ...
+
 ## Les fonctions
 
 - `transform()`
@@ -111,6 +111,8 @@ h1 span {
 * Création de sites adaptatifs
 
 ## Référencement
+
+code
 
 link
 

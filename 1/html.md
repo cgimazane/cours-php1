@@ -10,10 +10,10 @@ HyperText Markup Language
 
 ### Mots-clés
 
-Un élément html	:
+Un __élément__ html	:
 
-* est représenté par des balises
-* peut avoir des attributs
+* est représenté par des __balises__
+* peut avoir des __attributs__
 
 ## Les bases du html
 
@@ -55,21 +55,21 @@ Un élément html	:
 
 ### La page de base
 
-	```html
-	<!doctype html>
-	<html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<title>Titre de la page</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		...
-		<!-- Le contenu de votre page -->
-		...
-	</body>
-	</html>
-	```
+```html
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Titre de la page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	...
+	<!-- Le contenu de votre page -->
+	...
+</body>
+</html>
+```
 
 * doctype
 * html avec un attribut (zone racine)

@@ -1,58 +1,58 @@
 [Retour au cours](../cours.md)
 
-## Les formulaires
+# Les formulaires
+
+## Introduction
+
+### Définition
+
+c'est quoi un formulaire
+
+### Mots-clés
 
 * html
 * des nouvelles balises
 
----
-
-### Fonctionnement
+## Fonctionnement
 
 1. l'utilisateur entre ses données
 2. il appuie sur valider
 3. le traitement est déclenché
 4. les données sont retournées (à l'utilisateur ou à la bdd) après traitement
 
----
-
-### Les balises
+## Les balises
 
 - formulaire : `<form></form>`
- * method : GET (paramètres dans la barre d'adresse) ou POST (paramètres cachés)
- * name
- * action : la page php contenant le traitement
-
+  * method : GET (paramètres dans la barre d'adresse) ou POST (paramètres cachés)
+  * name
+  * action : la page php contenant le traitement
 - champ de saisie : `<input />`
- * type
-		- type `text`
-		- type `password`
-		- type `radio`
-		- type `checkbox`
-		- type `select` et ses `option`
-		- type `textarea`
-		- type `submit`
-		- type `hidden`
- * name
-> un name est **unique** dans un form
+  * type
+    - `text`
+    - `password`
+    - `radio`
+    - `checkbox`
+    - `select` et ses `option`
+    - `textarea`
+    - `submit`
+    - `hidden`
+  * name
+- liste d'options :
+  - `<select></select>`
+  - `<option></option>`
+  - `<optgroup></optgroup>`
 
-- liste d'options : `<select></select>`
- * name
+ ### Autour des formulaires
 
-- `<option></option>`
- * value
+* autres types d'input
 
-- `<optgroup></optgroup>`
- * label
+* label (spécification)
+  - `<label></label>`
 
-- `<label></label>`
+* fieldset (regroupement)
+  - `<fieldset></fieldset>`
 
-- `<fieldset></fieldset>`
-
-- `<legend></legend>`
-
-- `<option></option>`
-
+_NB : unicité de l'attribut name_
 
  ### Attributs utiles
 
@@ -61,24 +61,16 @@
  - disabled
  - readonly
 
- #### Exemple
+ ## Exemple
 
  ```html
-	<form action="#">
-		<label for="filename">Nom du fichier :
-			<input type="text" name="filename" placeholder="Nom du fichier" />
-		</label>
-		<input type="file" name="file" />
-		<input type="submit" value="Submit" />
-	</form>
+  <form action="#">
+    <label for="filename">Nom du fichier :
+      <input type="text" name="filename" placeholder="Nom du fichier" />
+    </label>
+    <input type="file" name="file" />
+    <input type="submit" value="Submit" />
+  </form>
 ```
-
----
-
-### Autour des formulaires
-
-* autres types d'input
-* label (spécification)
-* fieldset (regroupement)
 
 [Retour au cours](../cours.md)
