@@ -87,7 +87,6 @@ C'est un langage de programmation de scripts (orienté objet)
 * interaction avec la page ou l'utilisateur
 * animer
 * dessiner
-* ...
 
 _NB : Langage interprété par le navigateur_
 

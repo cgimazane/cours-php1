@@ -21,8 +21,8 @@ Un __style__ css est composé de :
 
 ```css
 h1 {
-		 font-family: Arial;
-		 color: #0f5;
+  font-family: Arial;
+  color: #0f5;
 }
 ```
 
@@ -37,7 +37,7 @@ h1 {
 
 }
 ```
-* on sélectionne un élément identifié `<div id="boite"></div>` dans la page
+* on sélectionne l'élément identifié `<div id="boite"></div>` dans la page
 
 ```css
 #boite {
@@ -71,29 +71,32 @@ h1 span {
 
 }
 ```
+
 ## Les propriétés
 
-* Couleur : color, background-color
+* Couleur : `color`, `background-color`
 * Textes :
-	- police : font-family
-	- taille : font-size
-	- graisse : font-weight
-	- alignement : text-align
-	- ...
-* Dimensions : width, height
-* Bordures
+	- police : `font-family`
+	- taille : `font-size`
+	- graisse : `font-weight`
+	- alignement : `text-align`
+* Dimensions : `width`, `height`
+* Bordures : `border`
 * Marges
-	- internes : padding
-	- externes : margin
+	- internes : `padding`
+	- externes : `margin`
 * Positionnement
 * Transparence
-* ...
 
 ## Les pseudo-trucs
 
-- pseudo-classes : `:hover`, `:nth-child()` ...
+- pseudo-classes
+  + `:hover`
+  + `:nth-child()`
 
-- pseudo-éléments : `::firstletter`, `::after` ...
+- pseudo-éléments
+  + `::firstletter`
+  + `::after`
 
 ## Les fonctions
 
@@ -103,15 +106,13 @@ h1 span {
 
 - `linear-gradient()`
 
-- ...
-
 ## Utilité
 
 * Création d'interfaces nombreuses
 * Création de sites adaptatifs
 
 ## Référencement
-
+html 
 code
 
 link

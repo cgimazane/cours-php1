@@ -31,43 +31,41 @@ Un __élément__ html	:
 
 * un paragraphe
 
-	```html
-	<p>quel beau paragraphe !</p>
-	```
+```html
+<p>quel beau paragraphe !</p>
+```
 
 * un lien
 
-	```html
-	<a href="http://www.ign.fr">lien vers ign</a>
-	```
+```html
+<a href="http://www.ign.fr">lien vers ign</a>
+```
 
 * un saut de ligne
 
-	```html
-	<hr />
-	```
+```html
+<hr />
+```
 
 * autre :
 
-	```html
-	<div>wow ma <strong>magnifique</strong> div !</div>
-	```
+```html
+<div>wow ma <strong>magnifique</strong> div !</div>
+```
 
 ### La page de base
 
 ```html
 <!doctype html>
 <html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<title>Titre de la page</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	...
-	<!-- Le contenu de votre page -->
-	...
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Le contenu de votre page -->
+  </body>
 </html>
 ```
 
@@ -123,10 +121,6 @@ Existence de standards à respecter.
 - Ecrire le contenu de la page dans le corps du document (`<body></body>`)
 
 - Remplir correctement l'entête (`<head></head>`) de votre document
-	* titre
-	* encodage
-	* auteur
-	* ...
 
 - Ne pas __abuser__ du copier/coller
 

@@ -7,7 +7,7 @@
 ## Objectifs
 
 * Se connecter à la base de données
-* Afficher les données dans un tableau
+* Afficher les données des personnes dans un tableau
 * phpinfo()
 
 [Retour au cours](../cours.md)
