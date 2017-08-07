@@ -25,6 +25,12 @@ Dans notre page Web, on a un objet `window` contenant (entre autres) un objet `d
 
 * Pas de typage des variables
 * Déclaration d'une variable par le mot-clé `var`
+* Types existants :
+	- string
+	- number
+	- array
+	- boolean
+	- object
 
 #### Exemple
 
@@ -33,6 +39,7 @@ var age = 12;
 var prenom,nom;
 prenom = "Leslie";
 nom = "Pencuir";
+document.getElementById("bienvenue").innerHTML = "Bienvenue " + prenom + " " + nom + " !";
 ```
 
 ### Chaînes de caractères
@@ -58,6 +65,14 @@ function squareRoot(nombre) {
 _NB : Utilisation de l'objet `Math`_
 
 ## Quelques fonctions utiles
+
+d |	f
+--- | ---
+Tableau | `pop()`, `push()`, `shift()`, ...
+String | `length`, `indexOf()`, ...
+Numbers | `parseInt()`, `Math.pow()`, ...
+
+Et d'autres...
 
 ## Structures
 
@@ -88,14 +103,15 @@ while (a<b)
 
 ## Evenements
 
-event |
+event | def
 --- | ---
 `onload` | après le chargement de la page
 `onclick` | lors d'un clic
 `onmousemove` | lorsque la souris se déplace
-...
 
-#### Exemple
+Et bien d'autres...
+
+#### Exemple
 
 ```html
 <h1 onmouseover="alert('Vous venez de survoler mon super titre');">Mon super titre</h1>
@@ -158,6 +174,6 @@ function maSuperAlerte() {
 
 ### Conventions
 
-blabla
+* Utilisation du camelCase pour nommer variables et fonctions
 
 [Retour au cours](../cours.md)
