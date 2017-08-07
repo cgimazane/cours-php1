@@ -66,7 +66,7 @@ _NB : unicité de l'attribut name_
  #### Exemple
 
  ```html
-  <form action="result.php" method="post">
+  <form action="result.php" method="POST">
     <label for="filename">Nom du fichier :
       <input type="text" name="filename" placeholder="Nom du fichier" />
     </label>

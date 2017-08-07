@@ -14,8 +14,6 @@ Fonctions variables
 
 ## Utilisation
 
-
-
 ```php
 <?php
   // mon code
@@ -47,6 +45,23 @@ Variables internes qui sont toujours disponibles, quel que soit le contexte
 * paramètres d'url : `$_GET`
 
 Et d'autres...
+
+## Fonctions
+
+### Ecrire une fonction
+
+* peuvent recevoir des arguments en entrée
+* peuvent retourner une valeur
+* travaillent sur des copies (on peut forcer par référence avec `&`)
+* return
+
+#### Exemple :
+
+```php
+  function concat($str1, $str2 = 'rajout') {
+    return $str1.$str2;
+  }
+```
 
 ## Quelques fonctions utiles
 
@@ -98,23 +113,6 @@ exécuté tant que la condition est vraie
     // code à exécuter tant que la condition est vraie
   }
 ?>
-```
-
-## Fonctions
-
-### Ecrire une fonction
-
-* peuvent recevoir des arguments en entrée
-* peuvent retourner une valeur
-* travaillent sur des copies (on peut forcer par référence avec `&`)
-* return
-
-Exemple :
-
-```
-  function concat($str1, $str2 = 'rajout') {
-    return $str1.$str2;
-  }
 ```
 
 ## Bases de données & SQL
@@ -178,5 +176,25 @@ $allResults = $prep->fetchAll();
 
 ?>
 ```
+
+## Rédaction de votre code
+
+- Toujours bien __terminer__ une instruction par un ;
+
+- Garder un code propre bien `indenté` (pour faciliter la relecture)
+
+- Attention aux portées des variables
+
+- Donner des noms compréhensibles
+
+- Ne pas hésiter à commenter
+	* html `<!-- mon commentaire -->`
+	* css ` /* mon commentaire */`
+	* js ` // mon commentaire`
+  * php ` // mon commentaire`
+
+- Ne pas __abuser__ du copier/coller
+
+### Conventions
 
 [Retour au cours](../cours.md)
