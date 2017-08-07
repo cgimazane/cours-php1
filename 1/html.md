@@ -61,7 +61,6 @@ Un __élément__ html	:
   <head>
     <meta charset="utf-8">
     <title>Titre de la page</title>
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- Le contenu de votre page -->
@@ -74,7 +73,6 @@ Un __élément__ html	:
 	- head (entête contenant les metadonnées)
 		+ meta
 		+ title
-		+ link
 	- body
 		+ le contenu du document
 
@@ -82,7 +80,7 @@ Existence de standards à respecter.
 
 ### Liste de balises bloc (non-exhaustive)
 
-* les blocs "neutres" : `<div>blabla</div>` : pour désigner les différentes parties du documents
+* les blocs "neutres" : `<div>blabla</div>` : pour désigner les différentes parties du document
 * les titres : `<h1>Mon super titre</h1>` (h2, ..., h6) : pour organiser la page
 * les paragraphes : `<p>ouh encore un beau paragraphe !</p>`
 * les listes : `<ul>` (non-numérotée) ou `<ol>` (numérotée)
@@ -90,7 +88,8 @@ Existence de standards à respecter.
 * les tableaux : `<table>`
 	- avec des lignes : `<tr>`
 	- avec des cellules : `<td>`
-* ...
+
+Et d'autres...
 
 ### Liste de balises en ligne
 
@@ -99,7 +98,8 @@ Existence de standards à respecter.
 	- href : destination du lien
 * `<img>`
 * `<span>` : l'équivalent de div
-* ...
+
+Et d'autres encore...
 
 ### Liste d'attributs standards
 * `class` : pour définir les classes de l'objet que l'on utilisera plus tard

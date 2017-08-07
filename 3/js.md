@@ -10,7 +10,8 @@ JavaScript
 
 ### Mots-clés
 
-Fonctions
+JS est un __langage orienté objet__
+Création de scripts
 
 ## Go
 

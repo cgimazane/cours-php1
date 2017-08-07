@@ -14,8 +14,8 @@ Un __style__ css est composé de :
 
 * un __sélecteur__
 * des __règles__
-  - à mettre entre { }
-  - à terminer par un ;
+	- à mettre entre { }
+	- à terminer par un ;
 
 #### Exemple
 
@@ -91,12 +91,12 @@ h1 span {
 ## Les pseudo-trucs
 
 - pseudo-classes
-  + `:hover`
-  + `:nth-child()`
+	+ `:hover`
+	+ `:nth-child()`
 
 - pseudo-éléments
-  + `::firstletter`
-  + `::after`
+	+ `::firstletter`
+	+ `::after`
 
 ## Les fonctions
 
@@ -111,11 +111,42 @@ h1 span {
 * Création d'interfaces nombreuses
 * Création de sites adaptatifs
 
-## Référencement
-html 
-code
+## Ajout
 
-link
+### Directement dans le html ...
+
+```html
+<div style="border-top: 3px double #0000ff;border-bottom: 1px solid #ff0000;color: #00ff00;">Ma div</div>
+```
+
+### Dans un fichier à part
+
+#### style.css
+
+```css
+#maDiv {
+  border-top: 3px double #0000ff;
+  border-bottom: 1px solid #ff0000;
+  color: #00ff00;
+}
+```
+
+#### index.html
+
+```html
+<!doctype html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    ...
+    <div id="maDiv">Ma div</div>
+    ...
+  </body>
+</html>
+```
+
 
 ## Rédaction de votre code
 

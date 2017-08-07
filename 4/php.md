@@ -14,10 +14,12 @@ Fonctions variables
 
 ## Utilisation
 
-Langage qui peut être inséré dans les fichiers html dans des balises
+
 
 ```php
-<?php ?>
+<?php
+  // mon code
+?>
 ```
 
 ## Variables

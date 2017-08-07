@@ -20,7 +20,9 @@ c'est quoi un formulaire
 3. le traitement est déclenché
 4. les données sont retournées (à l'utilisateur ou à la bdd) après traitement
 
-## Les balises
+## Rédaction
+
+### Les balises
 
 - formulaire : `<form></form>`
   * method : GET (paramètres dans la barre d'adresse) ou POST (paramètres cachés)
@@ -61,10 +63,10 @@ _NB : unicité de l'attribut name_
  - disabled
  - readonly
 
- ## Exemple
+ #### Exemple
 
  ```html
-  <form action="#">
+  <form action="result.php" method="post">
     <label for="filename">Nom du fichier :
       <input type="text" name="filename" placeholder="Nom du fichier" />
     </label>
@@ -72,5 +74,9 @@ _NB : unicité de l'attribut name_
     <input type="submit" value="Submit" />
   </form>
 ```
+
+## Récupération
+
+`$_POST`
 
 [Retour au cours](../cours.md)
