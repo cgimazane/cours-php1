@@ -1,6 +1,6 @@
 [Retour au cours](../cours.md)
 
-# Amélioration de notre page
+# 2.2 Amélioration de notre page
 
 * Reprise de la page avec la présentation de votre équipe (deux fois mieux)
 

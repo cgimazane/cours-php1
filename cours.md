@@ -68,26 +68,31 @@ WAMP
 
 [form-exos](5/exos.md)
 
-# 6 - frameworks
+# 6 - Bibliothèques
 
 ## 6.1 - Théorie
 
-[framework](6/framework.md)
+[lib](6/lib.md)
 
 ## 6.2 - Pratique
 
-[framework-exos](6/exos.md)
+[lib-exos](6/exos.md)
 
 ---
 
-# Formation php2
+# Conclusion
+
+Vous avez toutes les bases pour développer :)
+Il ne tient qu'à vous d'être un bon développeur
+
+# Ouverture formation php2
 
 Qu'est ce qu'il vous intéresserait de faire dans la formation ?
 
 Programme :
 
 * Bonnes pratiques
+* Tests
 * Programmation orientée objet
 * Architecture
 * Frameworks
-* Tests

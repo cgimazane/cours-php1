@@ -1,6 +1,6 @@
 [Retour au cours](../cours.md)
 
-# Amélioration de notre page
+# 3.2 Amélioration de notre page
 
 * Reprise de la page en ajoutant de l'interaction
 

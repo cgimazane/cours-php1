@@ -1,6 +1,6 @@
 [Retour au cours](../cours.md)
 
-# Amélioration de notre page
+# 4.2 Amélioration de notre page
 
 * Reprise de la page en allant chercher les informations dans la bdd
 
