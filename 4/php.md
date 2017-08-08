@@ -10,7 +10,13 @@ PHP Hypertext Preprocessor
 
 ### Mots-clés
 
-Fonctions variables
+Dynamisation du site
+
+* __traitement__ des données
+
+* récupération des données dans la __bdd__
+
+* possibilité d'__automatisation__
 
 ## Utilisation
 

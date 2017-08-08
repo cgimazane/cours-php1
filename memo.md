@@ -57,8 +57,20 @@ function maSuperAlerte() {
 
 C'est le __traitement__ du document (interprété par le serveur)
 
+On peut rendre un site dynamique : communiquer avec notre base de données ou d'autres traitements
 
-# Rappels
+```php
+$now = new DateTime();
+$year = $now->format("Y");
+
+$birthYear = $year - $_POST['age'];
+
+$txt = $_POST['nom'];
+$txt .= ' est né en ';
+$txt .= $birthYear;
+```
+
+# Guidelines
 
 - Toujours bien vérifier que si une balise est ouverte, elle __doit__ être fermée
 
