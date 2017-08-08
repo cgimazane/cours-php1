@@ -158,7 +158,7 @@ $query = 'DELETE FROM person WHERE nom="Patamob";';
 $rowCount = $db->exec($query);
 
 /** 3eme type de requete **/
-$query = 'SELECT * FROM person WHERE name=:nom LIMIT :limite;';
+$query = 'SELECT * FROM person WHERE nom=:nom LIMIT :limite;';
 
 $prep = $db->prepare($query);
 
