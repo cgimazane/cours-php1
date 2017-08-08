@@ -8,6 +8,6 @@
 
 * Se connecter à la base de données
 * Afficher les données des personnes dans un tableau
-* phpinfo()
+* `phpinfo()`
 
 [Retour au cours](../cours.md)

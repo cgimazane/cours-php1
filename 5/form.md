@@ -46,6 +46,8 @@ Interaction entre un utilisateur et un site
   - `<option></option>`
   - `<optgroup></optgroup>`
 
+_NB : unicité de l'attribut name_
+
 ### Autour des formulaires
 
 * autres types d'input
@@ -55,8 +57,6 @@ Interaction entre un utilisateur et un site
 
 * fieldset (regroupement)
   - `<fieldset></fieldset>`
-
-_NB : unicité de l'attribut name_
 
 ### Attributs utiles
 
