@@ -100,4 +100,12 @@ C'est un langage de programmation de scripts (orienté objet)
 
 _NB : Langage interprété par le serveur_
 
+# Utilisation
+
+## Formulaires
+
+## Bibliothèques
+
+Il est possible d'ajouter des bibliothèques à notre code
+
 [Retour au cours](../cours.md)

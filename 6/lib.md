@@ -40,4 +40,16 @@ _Ressource_ : un (ou plusieurs) fichier(s) .css déjà codé(s) contenant des st
 
 * Hue
 
+# Bibliothèques (php)
+
+## Définition
+
+_Bibliothèque_ : un (ou plusieurs) fichier(s) .php déjà codé(s) contenant différentes fonctionnalités
+
+## Liste NON-exhaustive
+
+* phpDocumentor
+
+* SwiftMailer
+
 [Retour au cours](../cours.md)
