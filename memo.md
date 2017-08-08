@@ -8,6 +8,19 @@ On utilise des __balises__ écrites en *minuscules* : `<div id="menu"></div>` ou
 
 Elle définissent un rôle, s'ouvrent et se ferment et ont des attributs (id, class, href ...) qui peuvent varier selon la balise.
 
+```html
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+  </head>
+  <body>
+    <!-- Le contenu de votre page -->
+  </body>
+</html>
+```
+
 ## css
 
 C'est la __mise en page__ du document (interprété par le navigateur)
@@ -26,13 +39,24 @@ h1 {
 }
 ```
 
-## php
-
-todo
-
 ## js
 
-todo
+C'est l'__animation__ du document (interprété par le navigateur)
+
+On gère les __événements__ grâce aux différentes __fonctions__ définies préalablement...
+
+```javascript
+<button onclick="maSuperAlerte()">Mon bouton</button>
+<script>
+function maSuperAlerte() {
+  alert('What a magnifique boite de dialogue...');
+}
+```
+
+## php
+
+C'est le __traitement__ du document (interprété par le serveur)
+
 
 # Rappels
 
@@ -53,6 +77,8 @@ todo
 # Liens utiles
 
 Il existe beaucoup de cheatsheets listant de nombreux attributs, balises ou styles ...
+
+Sinon y'a StackOverflow
 
 * giyf
   - lmgtfy
