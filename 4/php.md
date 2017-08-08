@@ -53,7 +53,6 @@ Et d'autres...
 * peuvent recevoir des arguments en entrée
 * peuvent retourner une valeur
 * travaillent sur des copies (on peut forcer par référence avec `&`)
-* return
 
 #### Exemple :
 
@@ -79,15 +78,13 @@ Et bien d'autres...
 ### Conditionelles
 
 ```php
-<?php
-  if (condition_a){
-    //code
-  }elseif(condition_b){
-    //code
-  }else{
-    //code
-  }
-?>
+if (condition_a){
+  //code
+}elseif(condition_b){
+  //code
+}else{
+  //code
+}
 ```
 ### Boucles
 
@@ -96,11 +93,9 @@ Et bien d'autres...
 exécuté pour i = 0, 1, ... , 9, soit 10 fois
 
 ```php
-<?php
-  for( $i=0; $i<10; $i++ ) {
-    //code
-  }
-?>
+for( $i=0; $i<10; $i++ ) {
+  //code
+}
 ```
 
 #### while
@@ -108,24 +103,22 @@ exécuté pour i = 0, 1, ... , 9, soit 10 fois
 exécuté tant que la condition est vraie
 
 ```php
-<?php
-  while( condition ) {
-    // code à exécuter tant que la condition est vraie
-  }
-?>
+while( condition ) {
+  // code à exécuter tant que la condition est vraie
+}
 ```
 
-## Bases de données & SQL
+## Bases de données
 
-## Rappels ?
+## Rappels
 
-* CREATE, SELECT, INSERT ...
-* ORDER BY ...
-* JOIN ...
+* CREATE, SELECT, INSERT
+* ORDER BY
+...
 
 ### Remplissage de la bdd
 
-* utilisation script sql
+Créer les tables et les remplir.
 
 ## Connexion
 
@@ -133,48 +126,42 @@ PDO : Php Data Objects
 
 ### Création
 
-
-```
-<?php
+```php
 try {
-$strConnection = 'mysql:host=localhost;dbname=php2';
-$db = new PDO($strConnection, 'root', '');
-}
-catch(PDOException $e) {
-    $msg = 'ERREUR PDO dans ' . $e->getFile() . ' L.' . $e->getLine() . ' : ' . $e->getMessage();
-    die($msg);
+  $strConnection = 'pgsql:host=localhost;dbname=php1';
+  $db = new PDO($strConnection, user, password);
+}catch(PDOException $e) {
+  $msg = 'ERREUR PDO dans ' . $e->getFile() . ' L.' . $e->getLine() . ' : ' . $e->getMessage();
+  die($msg);
 }
 ```
 
 ### Utilisation
 
 ```php
-<?php
-//requete #1
+/** 1er type de requete **/
 $query = 'SELECT * FROM person;';
 
 $stmt = $db->query($query);
 
 $allResults = $stmt->fetchAll();
 
-//requete #2
-$query = 'DELETE FROM person WHERE id=1;';
+/** 2nd type de requete **/
+$query = 'DELETE FROM person WHERE nom="Patamob";';
 
-$rowCount = $pdo->exec($query);
+$rowCount = $db->exec($query);
 
-//requete #3
+/** 3eme type de requete **/
 $query = 'SELECT * FROM person WHERE name=:nom LIMIT :limite;';
 
-$prep = $pdo->prepare($query);
+$prep = $db->prepare($query);
 
-$prep->bindValue(':limite', 10);
+$prep->bindValue(':limite', 2);
 $prep->bindValue(':nom', $name);
 
 $prep->execute();
 
 $allResults = $prep->fetchAll();
-
-?>
 ```
 
 ## Rédaction de votre code
@@ -191,10 +178,6 @@ $allResults = $prep->fetchAll();
 	* html `<!-- mon commentaire -->`
 	* css ` /* mon commentaire */`
 	* js ` // mon commentaire`
-  * php ` // mon commentaire`
-
-- Ne pas __abuser__ du copier/coller
-
-### Conventions
+	* php ` // mon commentaire`
 
 [Retour au cours](../cours.md)

@@ -161,9 +161,6 @@ h1 span {
 
 - Ne pas __abuser__ du copier/coller
 
-### Conventions
-
-* une déclaration par ligne
-* utiliser des minuscules pour les couleurs
+- Une seule déclaration par ligne
 
 [Retour au cours](../cours.md)

@@ -6,17 +6,17 @@
 
 ### Définition
 
-c'est quoi un formulaire
+Interaction entre un utilisateur et un site
 
 ### Mots-clés
 
-* html
+* html & php
 * des nouvelles balises
 
 ## Fonctionnement
 
 1. l'utilisateur entre ses données
-2. il appuie sur valider
+2. il les envoie
 3. le traitement est déclenché
 4. les données sont retournées (à l'utilisateur ou à la bdd) après traitement
 
@@ -25,7 +25,9 @@ c'est quoi un formulaire
 ### Les balises
 
 - formulaire : `<form></form>`
-  * method : GET (paramètres dans la barre d'adresse) ou POST (paramètres cachés)
+  * method : par quel moyen les données vont être envoyées
+    - GET (paramètres dans la barre d'adresse)
+    - POST (paramètres cachés)
   * name
   * action : la page php contenant le traitement
 - champ de saisie : `<input />`
@@ -44,7 +46,7 @@ c'est quoi un formulaire
   - `<option></option>`
   - `<optgroup></optgroup>`
 
- ### Autour des formulaires
+### Autour des formulaires
 
 * autres types d'input
 
@@ -56,27 +58,44 @@ c'est quoi un formulaire
 
 _NB : unicité de l'attribut name_
 
- ### Attributs utiles
+### Attributs utiles
 
  - selected
  - checked
  - disabled
  - readonly
 
- #### Exemple
+#### Exemple
 
  ```html
   <form action="result.php" method="POST">
-    <label for="filename">Nom du fichier :
-      <input type="text" name="filename" placeholder="Nom du fichier" />
+    <input type="text" name="name" placeholder="Nom" />
+    <label for="age">Age :
+      <input type="number" name="age" min="1" />
     </label>
-    <input type="file" name="file" />
     <input type="submit" value="Submit" />
   </form>
 ```
 
 ## Récupération
 
-`$_POST`
+Il faut donc récupérer les données envoyées par l'utilisateur.
+
+On sait où les récupérer `$_GET`, `$_POST` ou `$_FILES` grâce à l'attribut `method`
+
+On va donc effectuer le traitement dans la page `result.php`
+
+#### Exemple
+
+```php
+$now = new DateTime();
+$year = $now->format("Y");
+
+$birthYear = $year - $_POST['age'];
+
+$txt = $_POST['nom'];
+$txt .= ' est né en ';
+$txt .= $birthYear;
+```
 
 [Retour au cours](../cours.md)

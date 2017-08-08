@@ -11,8 +11,7 @@ JavaScript
 ### Mots-clés
 
 JavaScript est un __langage orienté objet__ interprété par le navigateur, sensible à la casse.
-Le JavaScript est un langage « client », c'est-à-dire exécuté chez l'utilisateur lorsque la page Web est chargée.
-...
+
 Il a pour but de dynamiser les sites Internet.
 
 ### Présentation rapide
@@ -75,6 +74,17 @@ Numbers | `parseInt()`, `Math.pow()`, ...
 Et d'autres...
 
 ## Structures
+
+### Conditionelles
+
+```javascript
+if (var1==var2)
+{
+  //code
+}else{
+  //code
+}
+```
 
 ### Boucles
 
@@ -172,8 +182,6 @@ function maSuperAlerte() {
 
 - Ne pas __abuser__ du copier/coller
 
-### Conventions
-
-* Utilisation du camelCase pour nommer variables et fonctions
+- Utilisation du camelCase pour nommer variables et fonctions
 
 [Retour au cours](../cours.md)
