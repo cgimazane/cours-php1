@@ -102,10 +102,16 @@ _NB : Langage interprété par le serveur_
 
 # Utilisation
 
-## Formulaires
+## Formulaires
+
+Il est également possible de demander à l'utilisateur de rentrer des données
 
 ## Bibliothèques
 
-Il est possible d'ajouter des bibliothèques à notre code
+Il est possible d'ajouter des bibliothèques (js, css, php...) à notre code afin de le rendre
+
+---
+
+_NB : toutes les listes données dans ce cours ne sont pas exhaustives_
 
 [Retour au cours](../cours.md)

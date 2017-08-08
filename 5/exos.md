@@ -4,7 +4,11 @@
 
 * Reprise de la page en ajoutant un formulaire
 
-## Objectifs
+## Objectif
+
+Recueillir des informations de l'utilisateur
+
+## Buts
 
 * Ajouter une case à cocher (préalablement cochée si besoin)
   - pour savoir si l'utilisateur a des lunettes (ou non)

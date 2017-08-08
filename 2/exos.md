@@ -4,9 +4,11 @@
 
 * Reprise de la page avec la présentation de votre équipe (deux fois mieux)
 
-## Objectifs
+## Objectif
 
 Rendre la page plus agréable
+
+## Buts
 
 * Structuration
   - page

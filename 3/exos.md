@@ -4,7 +4,11 @@
 
 * Reprise de la page en ajoutant de l'interaction
 
-## Objectifs
+## Objectif
+
+Dynamiser la page
+
+## Buts
 
 * Ajout d'une édition d'élément html
   + suite à une action de l'utilisateur

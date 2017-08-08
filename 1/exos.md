@@ -4,11 +4,11 @@
 
 Tout au long de la session, réalisation d'un projet sur votre équipe : création d'une page avec la présentation de votre équipe
 
-# Objectif
+## Objectif
 
 Ecriture de notre première page avec des metadonnées bien rédigées
 
-# Buts
+## Buts
 
 * Avoir une dizaine d'élements différents dont :
 	- un tableau contenant les noms de vos collègues
