@@ -56,12 +56,10 @@ document.getElementById("bienvenue").innerHTML = "Bienvenue " + prenom + " " + n
 #### Exemple
 
 ```javascript
-function squareRoot(nombre) {
-  return Math.sqrt(nombre);
+function cube(nombre) {
+  return nombre * nombre * nombre;
 }
 ```
-
-_NB : Utilisation de l'objet `Math`_
 
 ## Quelques fonctions utiles
 

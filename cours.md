@@ -58,7 +58,7 @@ WAMP
 
 [php-exos](4/exos.md)
 
-# 5 - formulaires
+# 5 - Formulaires
 
 ## 5.1 - Théorie
 

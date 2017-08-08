@@ -36,13 +36,14 @@ on évite ~~`toto`~~ ou ~~`plop`~~, on va préférer `couleurProduit` à ~~`cp`~
 
 #### Exemple
 
-on va avoir des noms de fonctions comme `getCouleurProduit()` et `getCouleurComplementaire()` plutôt que ~~`getCouleurProduitAndCouleurComplementaire()`~~
+on va avoir des noms de fonctions comme `getCouleurProduit()` et `getCouleurComplementaire()` plutôt que ~~`getCouleurProduitAndCouleurComplementaire()`~~ qui est, en plus, beaucoup trop long...
 
 11. Il écrit des tests relatifs à ce qu'il a rédigé
 
 ### En gros
 
 Le bon développeur est soigné, lisible, endurant, explicite, organisé, ouvert, critique, appliqué, logique, anglophone...
+Beau gosse !
 
 ## Organisation de vos données
 
@@ -79,6 +80,10 @@ Le bon développeur est soigné, lisible, endurant, explicite, organisé, ouvert
 #### html
 
 * Markup Validation Service
+
+#### css
+
+* CSS Validation Service
 
 #### js
 

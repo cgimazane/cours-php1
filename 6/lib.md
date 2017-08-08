@@ -1,19 +1,43 @@
 [Retour au cours](../cours.md)
 
-# Bibliothèques
+# Bibliothèques (js)
 
-y'en a mille
+## Définition
 
-bootstrap
+_Bibliothèque_ : un (ou plusieurs) fichier(s) .js déjà codé(s) contenant des méthodes et des propriétés pour l’ajout de fonctionnalités dynamiques (données) à une page HTML
 
-jquery
+## Liste NON-exhaustive
 
-prototype
+### DOM
 
-openlayers
+* JQuery
+* Prototype.js
 
-leaflet
+### UI
 
-google charts
+* bootstrap
+* JQuery UI
+
+### Visualisation
+
+* echarts
+* D3.js
+
+### Carto
+
+* openlayers
+* leaflet
+
+# Ressources (css)
+
+## Définition
+
+_Ressource_ : un (ou plusieurs) fichier(s) .css déjà codé(s) contenant des style pour le design de la page HTML
+
+## Liste NON-exhaustive
+
+* Balloon
+
+* Hue
 
 [Retour au cours](../cours.md)
