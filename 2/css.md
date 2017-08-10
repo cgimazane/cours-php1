@@ -85,8 +85,16 @@ h1 span {
 * Marges
 	- internes : `padding`
 	- externes : `margin`
-* Positionnement
 * Transparence
+
+### Le positionnement `position`
+
+* `static` est la valeur par défaut de tous les éléments
+* `relative` se comporte de la même façon que `static` mais les propriétés `top`, `right`, `bottom` et `left` vont le déplacer
+* `fixed` est positionné par rapport a la fenêtre du navigateur, ce qui signifie qu'il reste toujours à la même place même si la page défile
+* `absolute` se comporte comme `fixed` mais par rapport à l'élément parent le plus proche
+
+Possibilté de faire flotter (en les sortant du flux) des éléments avec `float` 
 
 ## Les pseudo-trucs
 

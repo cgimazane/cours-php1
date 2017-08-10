@@ -68,7 +68,7 @@ WAMP
 
 [form-exos](5/exos.md)
 
-# 6 - Bibliothèques
+# 6 - Bibliothèques & dépendances
 
 ## 6.1 - Théorie
 
