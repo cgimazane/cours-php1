@@ -34,18 +34,20 @@ Principe :
 
 ## NodeJS - NPM
 
+_NB : ici, on parle de JavaScript qui est exécuté côté serveur_
+
 Principalement utilisé pour :
 
 * Gérer les dépendances NodeJS (express par exemple)
 * Gérer l'installation des outils côté serveur (less, grunt mais aussi bower)
-* Gérer l'exécution de tâche (```npm start``` pour démarrer un serveur)
+* Gérer l'exécution de tâche (`npm start` pour démarrer un serveur)
 * Descripteur du projet : package.json
 * Dépôt central : [npmjs.com](https://www.npmjs.com/)
 * Démarrage rapide : [Tester express](https://www.npmjs.com/package/express)
 
 Remarque :
 
-* Noter la notion d'installation globale (```npm install -g less```)
+* Noter la notion d'installation globale (`npm install -g less`)
 * Noter aussi l'existence de [Grunt](http://gruntjs.com/getting-started) et Gulp pour en automatiser certaines
 tâches (validation du code JavaScript : lint, minification de code : uglify, )
 

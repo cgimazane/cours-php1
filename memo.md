@@ -70,6 +70,28 @@ $txt .= ' est né en ';
 $txt .= $birthYear;
 ```
 
+## formulaires
+
+On propose à l'utilisateur de fournir des données/informations
+
+```html
+ <form action="result.php" method="POST">
+   <input type="text" name="name" placeholder="Nom" />
+   <label for="age">Age :
+     <input type="number" name="age" min="1" />
+   </label>
+   <input type="submit" value="Submit" />
+ </form>
+```
+
+## bibliothèqyes et dépendances
+
+outil/langage | php | nodeJs
+--- | --- | ---
+descripteur de projet | composer.json | package.json
+dépot central | Packagist | npmjs
+utilitaire | composer | npm
+
 # Guidelines
 
 - Toujours bien vérifier que si une balise est ouverte, elle __doit__ être fermée
