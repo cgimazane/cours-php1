@@ -146,24 +146,24 @@ try {
 
 ```php
 /** 1er type de requete **/
-$query = 'SELECT * FROM person;';
+$query = 'SELECT * FROM personne;';
 
 $stmt = $db->query($query);
 
 $allResults = $stmt->fetchAll();
 
 /** 2nd type de requete **/
-$query = 'DELETE FROM person WHERE nom="Patamob";';
+$query = 'DELETE FROM personne WHERE nom="Honnette";';
 
 $rowCount = $db->exec($query);
 
 /** 3eme type de requete **/
-$query = 'SELECT * FROM person WHERE nom=:nom LIMIT :limite;';
+$query = 'SELECT * FROM personne WHERE nom=:nom LIMIT :limite;';
 
 $prep = $db->prepare($query);
 
-$prep->bindValue(':limite', 2);
-$prep->bindValue(':nom', $name);
+$prep->bindValue(':limite', 1 );
+$prep->bindValue(':nom', "Patamob" );
 
 $prep->execute();
 
