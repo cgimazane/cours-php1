@@ -10,8 +10,10 @@ Dynamiser la page
 
 ## Buts
 
-* Ajout d'une édition d'élément html
-  + suite à une action de l'utilisateur
+* Ajout d'interactions utilisateur impactant le style de la page suite à
+  - un clic sur un bouton de la souris
+  - une pression sur une touche du clavier
+  - un survol
 * Interaction demandant la date de naissance de l'utilisateur et lui retournant le nombre de jours qu'il a
 
 [Retour au cours](../cours.md)

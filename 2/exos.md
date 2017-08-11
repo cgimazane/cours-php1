@@ -12,12 +12,11 @@ Rendre la page plus agréable
 
 * Structuration
   - page
-    + header
+    + header/footer
     + menu
-    + footer
 * Création d'un fichier de style
   - Mise en forme
-    + générale
+    + générale ( => menu, footer...)
     + du tableau
 
 [Retour au cours](../cours.md)

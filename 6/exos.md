@@ -10,8 +10,7 @@ Avoir une idée de tout ce qu'il est possible de faire grâce aux bibliothèques
 
 ## Buts
 
-* Faire des beaux tableaux avec Bootstrap
 * Utiliser le package jenssegers/date pour afficher la date de naissance en français
-* Insérer une carte avec Leaflet
+* Faire des beaux tableaux avec Bootstrap
 
 [Retour au cours](../cours.md)

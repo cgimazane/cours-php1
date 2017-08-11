@@ -10,7 +10,7 @@ Ecriture de notre première page avec des metadonnées bien rédigées
 
 ## Buts
 
-* Avoir une dizaine d'élements différents dont :
+* Avoir quelques élements différents dont :
 	- un tableau contenant les noms de vos collègues
 * Ne pas avoir de problèmes d'encodage
 * Avoir "Mon équipe" comme titre de page
