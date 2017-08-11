@@ -27,10 +27,7 @@ C'est la __mise en page__ du document (interprété par le navigateur)
 
 On définit des __styles__ composés :
 * d'un sélecteur (`h1`, `#menu`)
-> à qui est appliqué le style
-
 * des règles écrites entre { } et terminées par un ;
-> qui définissent le style
 
 ```css
 h1 {
