@@ -37,14 +37,14 @@ h1 {
 
 }
 ```
-* on sélectionne l'élément identifié `<div id="boite"></div>` dans la page
+* on sélectionne l'élément identifié `<div id="boite"></div>`
 
 ```css
 #boite {
 
 }
 ```
-* on sélectionne tous les éléments identifiés `<div class="menu"></div>` dans la page
+* on sélectionne tous les éléments identifiés (reliés à la classe) `<div class="menu"></div>`
 
 ```css
 .menu {
@@ -64,10 +64,18 @@ h1, span {
 
 ### Sélecteur hiérarchique
 
-* on sélectionne tous les éléments `span` contenu dans un élément `h1`
+* on sélectionne tous les éléments `span` contenus dans un élément `h1`
 
 ```css
 h1 span {
+
+}
+```
+
+* on sélectionne tous les éléments `span` dont le parent est un élément `h1`
+
+```css
+h1 > span {
 
 }
 ```
@@ -91,7 +99,7 @@ h1 span {
 
 * `static` est la valeur par défaut de tous les éléments
 * `relative` se comporte de la même façon que `static` mais les propriétés `top`, `right`, `bottom` et `left` vont le déplacer
-* `fixed` est positionné par rapport a la fenêtre du navigateur, ce qui signifie qu'il reste toujours à la même place même si la page défile
+* `fixed` est positionné par rapport à la fenêtre du navigateur, ce qui signifie qu'il reste toujours à la même place même si la page défile
 * `absolute` se comporte comme `fixed` mais par rapport à l'élément parent le plus proche
 
 Possibilté de faire flotter (en les sortant du flux) des éléments avec `float`
