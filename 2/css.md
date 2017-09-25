@@ -80,6 +80,9 @@ h1 > span {
 }
 ```
 
+Et d'autres ...
+
+
 ## Les propriétés
 
 * Couleur : `color`, `background-color`
@@ -94,6 +97,8 @@ h1 > span {
 	- internes : `padding`
 	- externes : `margin`
 * Transparence
+
+Et tant d'autres ...
 
 ### Le positionnement `position`
 
