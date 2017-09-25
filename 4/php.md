@@ -41,7 +41,7 @@ Dynamisation du site
 ### Chaînes de caractères
 
 * entre `'`
-* concaténés par des `.`
+* concaténées par des `.`
 
 ### Variables superglobales
 
