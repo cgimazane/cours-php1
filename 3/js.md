@@ -44,7 +44,7 @@ document.getElementById("bienvenue").innerHTML = "Bienvenue " + prenom + " " + n
 ### Chaînes de caractères
 
 * entre `"`
-* concaténés par des `+`
+* concaténées par des `+`
 
 ## Fonctions
 
