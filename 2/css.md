@@ -94,9 +94,9 @@ h1 span {
 * `fixed` est positionné par rapport a la fenêtre du navigateur, ce qui signifie qu'il reste toujours à la même place même si la page défile
 * `absolute` se comporte comme `fixed` mais par rapport à l'élément parent le plus proche
 
-Possibilté de faire flotter (en les sortant du flux) des éléments avec `float` 
+Possibilté de faire flotter (en les sortant du flux) des éléments avec `float`
 
-## Les pseudo-trucs
+## Les pseudos
 
 - pseudo-classes
 	+ `:hover`

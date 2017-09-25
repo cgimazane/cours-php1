@@ -32,7 +32,7 @@ _NB : un commentaire de code n'est pas une paraphrase du code_
 
 on évite ~~`toto`~~ ou ~~`plop`~~, on va préférer `couleurProduit` à ~~`cp`~~
 
-- des fonctions qui ne font qu'une seule chose avec des noms descriptifs (utilisation de verbes d'action)
+- des fonctions qui _ne font qu'une seule chose_ avec des __noms descriptifs__ (utilisation de verbes d'action)
 
 #### Exemple
 
@@ -43,7 +43,12 @@ on va avoir des noms de fonctions comme `getCouleurProduit()` et `getCouleurComp
 ### En gros
 
 Le bon développeur est soigné, lisible, endurant, explicite, organisé, ouvert, critique, appliqué, logique, anglophone...
-Beau gosse !
+Pas mal !
+
+Il connait aussi des "principes" simples :
+* KISS : Keep It Simple, Stupid
+* DRY : Don't Repeat Yourself
+...
 
 ## Organisation de vos données
 

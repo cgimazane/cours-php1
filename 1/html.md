@@ -44,7 +44,7 @@ Un __élément__ html	:
 * un saut de ligne
 
 ```html
-<hr />
+<br />
 ```
 
 * autre :
@@ -91,7 +91,7 @@ Existence de standards à respecter.
 
 Et d'autres...
 
-### Liste de balises en ligne
+### Liste de balises en ligne (non-exhaustive)
 
 * `<strong>` , `<em>` : accentuation
 * `<a>` : les liens

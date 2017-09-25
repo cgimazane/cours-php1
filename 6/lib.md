@@ -8,7 +8,7 @@ La plupart des outils comporte :
 * Un utilitaire en ligne de commande
 * Un dépôt central à partir duquel on télécharge les packages (tout en ayant la possibilité de monter des dépôts privés)
 
-L'utilitaire en ligne de commande offre généralement au moins les opérations suivante :
+L'utilitaire en ligne de commande offre généralement au moins les opérations suivantes :
 
 * init : génération d'un descripteur de projet
 * install : installer les dépendances

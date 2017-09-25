@@ -75,7 +75,7 @@ _NB : Langage interprété par le navigateur_
 
 ## Démonstration
 
-Dans votre navigateur, taper www.csszengarden.com/cdu avec ```cdu < 222```
+Dans votre navigateur, taper www.csszengarden.com/cdu avec `cdu < 222`
 
 Exemples : 209, 167, 126, 112, 048, 012, 001
 
@@ -108,10 +108,10 @@ Il est également possible de demander à l'utilisateur de rentrer des données
 
 ## Bibliothèques
 
-Il est possible d'ajouter des bibliothèques (js, css, php...) à notre code afin de le rendre
+Il est possible d'ajouter des bibliothèques (js, css, php...) à notre code afin de l'améliorer, le clarifier ...
 
 ---
 
-_NB : toutes les listes données dans ce cours ne sont pas exhaustives_
+_NB : toutes les listes données dans ce cours sont loin d'être exhaustives_
 
 [Retour au cours](../cours.md)
