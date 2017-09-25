@@ -26,7 +26,7 @@ _NB : un commentaire de code n'est pas une paraphrase du code_
 
 10. Il crée du code intelligible et robuste et respecte les bonnes pratiques :
 
-- des noms de variables explicites : on dit "révélateurs d'intention"
+- des noms de variables explicites : on dit __"révélateurs d'intention"__
 
 #### Exemple
 
@@ -48,7 +48,7 @@ Pas mal !
 Il connait aussi des "principes" simples :
 * KISS : Keep It Simple, Stupid
 * DRY : Don't Repeat Yourself
-...
+* ...
 
 ## Organisation de vos données
 
