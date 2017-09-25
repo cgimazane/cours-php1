@@ -20,7 +20,7 @@ Interaction entre un utilisateur et un site
 3. le traitement est déclenché
 4. les données sont retournées (à l'utilisateur ou à la bdd) après traitement
 
-## Rédaction
+## Rédaction (html)
 
 ### Les balises
 
@@ -77,7 +77,7 @@ _NB : unicité de l'attribut name_
   </form>
 ```
 
-## Récupération
+## Récupération (php)
 
 Il faut donc récupérer les données envoyées par l'utilisateur.
 
