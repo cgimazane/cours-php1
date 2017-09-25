@@ -48,6 +48,7 @@ On gère les __événements__ grâce aux différentes __fonctions__ définies pr
 function maSuperAlerte() {
   alert('What a magnifique boite de dialogue...');
 }
+</script>
 ```
 
 ## php
@@ -67,7 +68,7 @@ $txt .= ' est né en ';
 $txt .= $birthYear;
 ```
 
-## formulaires
+## form
 
 On propose à l'utilisateur de fournir des données/informations
 
@@ -81,13 +82,13 @@ On propose à l'utilisateur de fournir des données/informations
  </form>
 ```
 
-## bibliothèqyes et dépendances
+## lib
 
 outil/langage | php | nodeJs
 --- | --- | ---
-descripteur de projet | composer.json | package.json
-dépot central | Packagist | npmjs
-utilitaire | composer | npm
+descripteur de projet | composer.json | package.json
+dépot central | Packagist | npmjs
+utilitaire | composer | npm
 
 # Guidelines
 
