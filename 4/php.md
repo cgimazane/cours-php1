@@ -116,7 +116,7 @@ while( condition ) {
 
 ## Bases de données
 
-## Rappels
+## Rappels SQL
 
 * CREATE, SELECT, INSERT
 * ORDER BY
