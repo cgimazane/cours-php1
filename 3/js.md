@@ -124,6 +124,9 @@ Et bien d'autres...
 ```html
 <h1 onmouseover="alert('Vous venez de survoler mon super titre');">Mon super titre</h1>
 ```
+
+On peut également utiliser `addEventListener`
+
 ## Ajout
 
 ### Directement dans le html ...
