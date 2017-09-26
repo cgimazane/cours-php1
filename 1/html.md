@@ -22,7 +22,7 @@ Un __élément__ html	:
 * elles définissent un rôle (et pas de mise en forme)
 * elles sont écrites en minuscules
 * elles s'ouvrent et se referment
-* elles peuvent avoir des attributs ( `"` est utilisé pour définir les valeur des attributs )
+* elles peuvent avoir des attributs ( `"` est utilisé pour définir les valeurs des attributs )
 * elles sont de deux types
 	- "bloc" : elles créent un bloc "autonome"
 	- en ligne : elles servent à donner de l'intérêt à ce qu'elles concernent
